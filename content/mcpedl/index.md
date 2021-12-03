@@ -1,3 +1,3 @@
 
 ## Content Index [root/content/mcpedl]
-[content](./../) [100](./100)
+[content](./../), [100](./100)
