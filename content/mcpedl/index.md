@@ -1,3 +1,3 @@
 
-## Content Index [root/mcpedl]
+## Content Index [root/content/mcpedl]
 100
