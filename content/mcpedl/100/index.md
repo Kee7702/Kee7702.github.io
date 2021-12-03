@@ -1,3 +1,3 @@
 
 ## Content Index [root/content/mcpedl/100]
-LegacyFix.mcpack, LegacyFix.zip, StoreSwitcher.mcpack, StoreSwitcher.zip
+[mcpedl](./../), [LegacyFix.mcpack](./LegacyFix.mcpack), [LegacyFix.zip](./LegacyFix.zip), [StoreSwitcher.mcpack](./StoreSwitcher.mcpack), [StoreSwitcher.zip](./StoreSwitcher.zip)
