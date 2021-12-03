@@ -1,4 +1,4 @@
 
 ## Index [root/content/mcpedl/100/StoreSwitcher]
-### [LegacyFix](./../upload)
+### [LegacyFix](././upload)
 [Root](/), [Previous](./../)
