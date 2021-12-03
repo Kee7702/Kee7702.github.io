@@ -1,4 +1,4 @@
 
-## Content Index [root/content]
+## Index [root/content]
 ### [mcpedl](./mcpedl), [image](./image)
 [Root](/)
