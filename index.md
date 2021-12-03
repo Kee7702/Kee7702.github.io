@@ -1,3 +1,3 @@
 
 ## Site Index [root]
-content, image
+[content](./content), [KHSAssets](./KHSAssets)
