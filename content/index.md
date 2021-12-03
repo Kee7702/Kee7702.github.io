@@ -1,3 +1,3 @@
 
 ## Content Index [root/content]
-mcpedl, image
+[mcpedl](./mcpedl), [image](./image)
