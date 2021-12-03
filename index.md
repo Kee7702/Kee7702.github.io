@@ -1,3 +1,3 @@
 
-## Site Index [root]
+## Index [root]
 [content](./content)
