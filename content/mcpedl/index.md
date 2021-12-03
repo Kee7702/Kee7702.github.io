@@ -1,4 +1,4 @@
 
-## Content Index [root/content/mcpedl]
+## Index [root/content/mcpedl]
 ### [100](./100)
 [Root](/), [Previous](./../)
