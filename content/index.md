@@ -1,3 +1,3 @@
 
-## Content Index [root]
+## Content Index [root/content]
 mcpedl
