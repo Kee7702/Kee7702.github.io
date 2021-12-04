@@ -1,4 +1,4 @@
 
 ## Index [root/content/image]
 ### empty
-[Root](/), [Previous](././)
+[Root](/), [Previous](.././)
