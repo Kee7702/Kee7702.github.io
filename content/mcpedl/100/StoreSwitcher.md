@@ -4,4 +4,4 @@
 ### [StoreSwitcher.zip](././upload/StoreSwitcher.zip)
 ### [LegacyFix.mcpack](././upload/LegacyFix.mcpack)
 ### [LegacyFix.zip](././upload/LegacyFix.zip)
-[Root](/), [Previous](././)
+[Root](/), [Previous](.././)
