@@ -1,4 +1,4 @@
 
 ## Index [root/content/image]
-### empty
+### [icon.png](./icon.png)
 [Root](/), [Previous](.././)
