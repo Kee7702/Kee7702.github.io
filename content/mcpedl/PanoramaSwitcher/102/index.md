@@ -1,4 +1,4 @@
-<head><style>blockquote>* * { line-height:0!important } </style></head>
+<head><style>blockquote>* h5 { line-height:0!important } </style></head>
 ## Index [root/content/mcpedl/PanoramaSwitcher/102]
 > > ### Downloads are still accessible, but it is recommended to use the latest build.
 > # PanoramaSwitcher
