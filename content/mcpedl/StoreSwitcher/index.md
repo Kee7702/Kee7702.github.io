@@ -23,5 +23,8 @@
 > > ##### [StoreSwitcher.zip](././upload/StoreSwitcher.zip)
 > > ##### [LegacyFix.mcpack](././upload/LegacyFix.mcpack)
 > > ##### [LegacyFix.zip](././upload/LegacyFix.zip) 
+>
+> > ## Changelog
+> > ### No Changes Specified
 
 [Root](/), [Previous](.././)
