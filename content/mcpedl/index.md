@@ -1,5 +1,5 @@
 
 ## Index [root/content/mcpedl]
-### [![PanoramaSwitcher](././PanoramaSwitcher/upload/featuredimage_1-520x245.png)](./PanoramaSwitcher)
-### [![StoreSwitcher](././StoreSwitcher/upload/featuredimage_1-520x245.png)](./StoreSwitcher)
+### [![PanoramaSwitcher](././PanoramaSwitcher/upload/panorama-switcher_1.png)](./PanoramaSwitcher)
+### [![StoreSwitcher](././StoreSwitcher/upload/store-switcher_1.png)](./StoreSwitcher)
 [Root](/), [Previous](.././)
