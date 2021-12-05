@@ -18,7 +18,8 @@
 > ![Image](https://api.mcpedl.com/storage/submissions/134184/images/store-switcher_11.png)
 > ![Image](https://api.mcpedl.com/storage/submissions/134184/images/store-switcher_12.png)
 > ![Image](https://api.mcpedl.com/storage/submissions/134184/images/store-switcher_13.png)
-> 
+>
+> > Downloads:
 > > ##### [StoreSwitcher.mcpack](././upload/StoreSwitcher.mcpack)
 > > ##### [StoreSwitcher.zip](././upload/StoreSwitcher.zip)
 > > ##### [LegacyFix.mcpack](././upload/LegacyFix.mcpack)
