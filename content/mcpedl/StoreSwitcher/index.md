@@ -1,4 +1,3 @@
-<head><style>blockquote>* h5 { line-height:0!important } </style></head>
 ## Index [root/content/mcpedl/StoreSwitcher]
 > > ### This instance of StoreSwitcher has been denied by MCPEDL, and is not viewable on MCPEDL.
 > 
@@ -30,3 +29,4 @@
 > > #### No Changes Specified
 
 [Root](/), [Previous](.././)
+<head><style>blockquote>* h5 { line-height:0!important } </style></head>
