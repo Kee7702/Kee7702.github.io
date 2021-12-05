@@ -1,4 +1,3 @@
-<head><style>blockquote>* h5 { line-height:0!important } </style></head>
 ## Index [root/content/mcpedl/StoreSwitcher/101]
 > > ### Downloads are still accessible, but it is recommended to use the latest build.
 > 
@@ -40,3 +39,4 @@
 > > #### No Changes Specified
 
 [Root](/), [Previous](.././)
+<head><style>blockquote>* h5 { line-height:0!important } </style></head>
