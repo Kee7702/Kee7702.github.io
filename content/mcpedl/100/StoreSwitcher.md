@@ -18,10 +18,10 @@
 > ![Image](https://api.mcpedl.com/storage/submissions/134184/images/store-switcher_11.png)
 > ![Image](https://api.mcpedl.com/storage/submissions/134184/images/store-switcher_12.png)
 > ![Image](https://api.mcpedl.com/storage/submissions/134184/images/store-switcher_13.png)
-> ```
-> ##### [StoreSwitcher.mcpack](././upload/StoreSwitcher.mcpack)
-> ##### [StoreSwitcher.zip](././upload/StoreSwitcher.zip)
-> ##### [LegacyFix.mcpack](././upload/LegacyFix.mcpack)
-> ##### [LegacyFix.zip](././upload/LegacyFix.zip) ```
+> 
+> > ##### [StoreSwitcher.mcpack](././upload/StoreSwitcher.mcpack)
+> > ##### [StoreSwitcher.zip](././upload/StoreSwitcher.zip)
+> > ##### [LegacyFix.mcpack](././upload/LegacyFix.mcpack)
+> > ##### [LegacyFix.zip](././upload/LegacyFix.zip) 
 
 [Root](/), [Previous](.././)
