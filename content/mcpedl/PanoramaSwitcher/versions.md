@@ -9,4 +9,4 @@
 > ### [![PanoramaSwitcher](././100/upload/panorama-switcher_1.png)](./100)
 > #### PanoramaSwitcher [1.0.0]
 
-[Root](/), [Previous](.././PanoramaSwitcher)
+[Root](/), [Previous](./)
