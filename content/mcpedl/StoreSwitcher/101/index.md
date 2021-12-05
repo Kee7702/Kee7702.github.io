@@ -1,5 +1,7 @@
 <head><style>blockquote>* h5 { line-height:0!important } </style></head>
 ## Index [root/content/mcpedl/StoreSwitcher/101]
+> > ### Downloads are still accessible, but it is recommended to use the latest build.
+> 
 > > ### This instance of StoreSwitcher has not yet been uploaded to MCPEDL due to missing media. This will be resolved when I can go in-game and capture the screenshots required.
 > 
 > # StoreSwitcher
