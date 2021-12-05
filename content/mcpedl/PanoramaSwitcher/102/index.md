@@ -1,4 +1,3 @@
-<head><style>blockquote>* h5 { line-height:0!important } </style></head>
 ## Index [root/content/mcpedl/PanoramaSwitcher/102]
 > > ### Downloads are still accessible, but it is recommended to use the latest build.
 > 
@@ -41,3 +40,4 @@
 > > #### Also, sorry for the long time between releases, I hope to update more frequently in the future!
 
 [Root](/), [Previous](.././)
+<head><style>blockquote>* h5 { line-height:0!important } </style></head>
