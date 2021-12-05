@@ -2,7 +2,7 @@
 ## Index [root/content/mcpedl/StoreSwitcher/101]
 > > ### Downloads are still accessible, but it is recommended to use the latest build.
 > 
-> > ### This instance of StoreSwitcher has not yet been uploaded to MCPEDL due to missing media. This will be resolved when I can go in-game and capture the screenshots required.
+> > ### This instance of StoreSwitcher has not yet been uploaded to MCPEDL due to missing media.
 > 
 > # StoreSwitcher
 > #### Store Switcher is a collection of several marketplace button advertisements, with the ability to switch between all of them, or use no advertisement at all. This pack also has a fix for legacy bedrock versions, allowing you to use this pack on any version which has subpack support.
