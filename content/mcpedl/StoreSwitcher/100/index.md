@@ -1,6 +1,7 @@
 <head><style>blockquote>* h5 { line-height:0!important } </style></head>
 ## Index [root/content/mcpedl/StoreSwitcher]
 > > ### Downloads are still accessible, but it is recommended to use the latest build.
+>
 > # StoreSwitcher
 > ### Store Switcher is a collection of several marketplace button advertisements, with the ability to switch between all of them, or use no advertisement at all. This pack also has a fix for legacy bedrock versions, allowing you to use this pack on any version which has subpack support.
 > #### Beta Release
