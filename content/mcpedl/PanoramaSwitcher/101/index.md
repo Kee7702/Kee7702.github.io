@@ -1,4 +1,3 @@
-<head><style>blockquote>* h5 { line-height:0!important } </style></head>
 ## Index [root/content/mcpedl/PanoramaSwitcher/101]
 > > ### Downloads are still accessible, but it is recommended to use the latest build.
 > 
@@ -39,3 +38,4 @@
 > > #### **Overall Changes** - I've made some changes to the way that the subpacks are labeled, now showing the platform in which they originated on.
 
 [Root](/), [Previous](.././)
+<head><style>blockquote>* h5 { line-height:0!important } </style></head>
