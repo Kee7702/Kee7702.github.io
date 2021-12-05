@@ -1,4 +1,4 @@
-<head><style>blockquote>* h5 { line-height:0!important } </style></head>
+<head><style>blockquote>* h5 { line-height:0!important } blockquote>* h6 { line-height:0!important }  </style></head>
 ## Index [root/content/mcpedl/StoreSwitcher]
 > ##### This build has been denied by MCPEDL, and is currently unavailable on MCPEDL.
 > ###### The final build will still use the same download files, but will also include more visual information on what it does.
