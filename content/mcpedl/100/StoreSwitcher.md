@@ -21,7 +21,7 @@
 >
 <dl>
 <dt>Downloads</dt>
-<dd>[LegacyFix.zip](././upload/LegacyFix.zip)</dd>
+<p>[LegacyFix.zip](././upload/LegacyFix.zip)</p>
 </dl> 
 
 [Root](/), [Previous](.././)
