@@ -1,4 +1,6 @@
-
+---
+layout: preserved
+---
 ## Index [root/content/mcpedl]
 > > #### The specified index has been moved to a more appropriate location and is no longer available at this specific address. It will remain available but will no longer receieve updates.
 
