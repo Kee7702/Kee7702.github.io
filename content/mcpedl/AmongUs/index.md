@@ -14,4 +14,4 @@
 > > #### No Changes Specified
 
 [Root](/), [Previous](.././)
-<head><style>blockquote>* h5 { line-height:0!important } body { background:var(--url,black)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; --url:url(./upload/amongus_0.png); } </style></head>
+<head><style>blockquote>* h5 { line-height:0!important } body { background:url(./upload/amongus_0.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
