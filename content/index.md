@@ -4,7 +4,6 @@
   </style>
 </head>
 ## Index [root/content]
-### [mcpedl](./mcpedl)
+### [minecraftl](./minecraft)
 ### [image](./image)
-### [mcdevbuilds](./mcdevbuilds)
 [Root](/)
