@@ -2,11 +2,10 @@
 > # Minecraft Among Us
 > #### Minecraft Among Us brings the popular social deduction game 'Among Us' to Minecraft on Bedrock platforms, but beware as 1 or more of the members on the ship are an Impostor, only looking to kill innocent crewmates.
 > > ### Features
-> > ##### Kill and Report or Shapeshift into players.
-> > ##### Edit settings to change how everything works in-game.
-> > ##### Call a meeting and eject the impostor(s).
-> > ##### Distract the crew by sabotaging important ship functions.
-> > ### This map was made to have nearly every core mechanic of Among Us, so the functionality listed here is not the end.
+> > ##### Edit settings without the need for commands.
+> > ##### Access all among us sounds via a settings tab.
+> > ##### While you wait in the hub, enjoy Hub Functions.
+> > ### This map was made to have nearly every core mechanic of Among Us.
 >
 >
 > > #### Release date to be determined
