@@ -2,8 +2,11 @@
 > # Minecraft Among Us
 > #### Minecraft Among Us brings the popular social deduction game 'Among Us' to Minecraft on Bedrock platforms, but beware as 1 or more of the members on the ship are an Impostor, only looking to kill innocent crewmates.
 > > ### Features
-> > ##### Kill and Report players
-> > ##### Edit settings to change how it works in-game.
+> > ##### Kill and Report or Shapeshift into players.
+> > ##### Edit settings to change how everything works in-game.
+> > ##### Call a meeting and eject the impostor(s).
+> > ##### Distract the crew by sabotaging important ship functions.
+> > ### This isn't the end to what there is, but we want you to find out what else the map has to offer.
 >
 >
 > > #### Release date to be determined
