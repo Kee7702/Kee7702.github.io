@@ -6,7 +6,7 @@
 > > ##### Edit settings to change how everything works in-game.
 > > ##### Call a meeting and eject the impostor(s).
 > > ##### Distract the crew by sabotaging important ship functions.
-> > ### This isn't the end to what there is, but we want you to find out what else the map has to offer.
+> > ### This map was made to have nearly every core mechanic of Among Us, so the functionality listed here is not the end.
 >
 >
 > > #### Release date to be determined
