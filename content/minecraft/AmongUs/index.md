@@ -6,7 +6,7 @@
 > > ##### Edit settings to change how it works in-game.
 >
 >
-> > #### Downloads for Minecraft Among Us are releasing on December 11th at 2:00 PM EST, but downloads may not be available until 4:00 PM EST.
+> > #### Release date to be determined
 
 [Root](/), [Previous](../)
 <head><style>blockquote>* h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
