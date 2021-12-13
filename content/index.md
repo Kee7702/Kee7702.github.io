@@ -4,6 +4,6 @@
   </style>
 </head>
 ## Index [root/content]
-### [minecraftl](./minecraft)
+### [minecraft](./minecraft)
 ### [image](./image)
 [Root](/)
