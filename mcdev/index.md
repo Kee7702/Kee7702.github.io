@@ -1,4 +1,4 @@
 ---
-layout: preserved
+layout: removed
 ---
 ## Minecraft Developer Versions
