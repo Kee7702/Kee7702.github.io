@@ -35,5 +35,5 @@
 > #### **Overall Changes** - I've made some changes to the way that the subpacks are labeled, now showing the platform in which they originated on.
 
 [Root](/), [Previous](../)
-<head><style>blockquote>* h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
+<head><style>blockquote>h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
 
