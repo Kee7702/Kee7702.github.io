@@ -21,5 +21,5 @@
 > ##### [panorama-switcher_20.png](./panorama-switcher_20.png)
 
 [Root](/), [Previous](../)
-<head><style>blockquote>h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
+<head><style>blockquote>h5 { line-height:0!important } </style></head>
 
