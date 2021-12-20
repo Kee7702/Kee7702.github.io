@@ -1,5 +1,4 @@
 ## StoreSwitcher 1.00
-> # StoreSwitcher
 > #### Store Switcher is a collection of several marketplace button advertisements, with the ability to switch between all of them, or use no advertisement at all. This pack also has a fix for legacy bedrock versions, allowing you to use this pack on any version which has subpack support.
 > ### Beta Release
 > #### This pack is currently in beta; some buttons may not appear correctly on the certain versions.
@@ -23,8 +22,6 @@
 > > ##### [LegacyFix.mcpack](./upload/LegacyFix.mcpack)
 > > ##### [LegacyFix.zip](./upload/LegacyFix.zip) 
 >
-> > ### Changelog
-> > #### No Changes Specified
 
 [Root](/), [Previous](../)
 <head><style>blockquote>* h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
