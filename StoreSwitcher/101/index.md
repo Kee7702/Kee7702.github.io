@@ -29,9 +29,6 @@
 > > ##### [StoreSwitcher.zip](./upload/StoreSwitcher.zip)
 > > ##### [LegacyFix.mcpack](./upload/LegacyFix.mcpack)
 > > ##### [LegacyFix.zip](./upload/LegacyFix.zip) 
->
-> > ### Changelog
-> > #### No Changes Specified
 
 [Root](/), [Previous](../)
 <head><style>blockquote>* h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
