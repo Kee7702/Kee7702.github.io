@@ -1,5 +1,4 @@
 ## StoreSwitcher
-> # StoreSwitcher
 > #### Store Switcher is a collection of several marketplace button advertisements, with the ability to switch between all of them, or use no advertisement at all. This pack also has a fix for legacy bedrock versions, allowing you to use this pack on any version which has subpack support.
 > ### Beta Release
 > #### This pack is currently in beta; some buttons may not appear correctly on the certain versions.
