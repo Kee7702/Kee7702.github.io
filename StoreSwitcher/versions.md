@@ -1,6 +1,6 @@
 
 ## StoreSwitcher Versions
-> ### [![![FeaturedImage](./102/upload/store-switcher_1.png)](./102/upload/store-switcher_2.png)](./102)
+> ### [![![FeaturedImage](./101/upload/store-switcher_1.png)](./101/upload/store-switcher_2.png)](./102)
 > #### StoreSwitcher [1.0.2]
 
 > ### [![FeaturedImage](./101/upload/store-switcher_1.png)](./101)
