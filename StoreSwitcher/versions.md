@@ -1,5 +1,6 @@
 
 ## StoreSwitcher Versions
+<img src="./102/upload/store-switcher_1.png" onerror="this.src='/assets/images/featuredimage.png'" />
 > ### [![FeaturedImage](./102/upload/store-switcher_1.png|onerror=/assets/images/featuredimage.png)](./102)
 > #### StoreSwitcher [1.0.2]
 
