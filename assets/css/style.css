@@ -29,3 +29,10 @@ background:white;
 padding:10px;
 border-radius:16px
 }
+.filedownload:not(:last-of-type) {
+    margin-bottom:5px
+}
+.filedownload i {
+font-size:24px}
+.filedownload a {
+  font-size:16px}
