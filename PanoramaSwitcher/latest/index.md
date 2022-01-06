@@ -24,10 +24,12 @@
 ![Image](./upload/panorama-switcher_20.png)
 ### Smaller Filesize
 #### If you think a pack being over 80mb is a bit ridiculous, know that this is due to all panoramas being high resolution, but if you want to decrease the filesize with the compromise of panorama quality, consider downloading PanoramaSelectorSD, which is less than half the size of the base pack. Alternatively, I'll soon be splitting the pack by platform, which should reduce the filesize as well.
-> ##### [PanoramaSwitcher.mcpack](https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcher.mcpack)
-> ##### [PanoramaSwitcher.zip](https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcher.zip)
-> ##### [PanoramaSwitcherSD.mcpack](https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcherSD.mcpack)
-> ##### [PanoramaSwitcherSD.zip](https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcherSD.zip)
+
+<div class="filedownload"><i class="material-icons" style="font-size:36px">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcher.mcpack" style="font-family: Mojangles;font-size:15px">PanoramaSwitcher.mcpack</a></div>
+<div class="filedownload"><i class="material-icons" style="font-size:36px">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcher.zip" style="font-family: Mojangles;font-size:15px">PanoramaSwitcher.zip</a></div>
+<div class="filedownload"><i class="material-icons" style="font-size:36px">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcherSD.mcpack" style="font-family: Mojangles;font-size:15px">PanoramaSwitcherSD.mcpack</a></div>
+<div class="filedownload"><i class="material-icons" style="font-size:36px">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcherSD.zip" style="font-family: Mojangles;font-size:15px">PanoramaSwitcherSD.zip</a></div>
+
 
 > ### Changelog
 > #### Fixed 'Bussy Bees' typo, it should now be Buzzy Bees.
