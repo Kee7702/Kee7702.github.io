@@ -1,9 +1,5 @@
 
 ## Index
-> ## Resource Packs
-> > <h3><a href="./PanoramaSwitcher"><img src="./PanoramaSwitcher/upload/panorama-switcher_1.png" onerror="this.src='/assets/images/featuredimage.png'" alt="FeaturedImage"></a></h3>
-> > #### PanoramaSwitcher [[Versions]](./PanoramaSwitcher/versions)
->
-> > <h3><a href="./StoreSwitcher"><img src="./StoreSwitcher/upload/store-switcher_1.png" onerror="this.src='/assets/images/featuredimage.png'" alt="FeaturedImage"></a></h3>
+<div class="gridcontainer"><div class="imagecontainer row1"><div class="imageresizer"><img src="https://kee7702.github.io/assets/images/featuredimage.png" alt="FeaturedImage" style="width:100%"></div><div class="container"><div class="buttoncontainer"><a href="./PanoramaSwitcher">PanoramaSwitcher</a></div></div></div><div class="imagecontainer row2"><div class="imageresizer"><img src="https://kee7702.github.io/assets/images/featuredimage.png" alt="FeaturedImage" style="width:100%"></div><div class="container"><div class="buttoncontainer"><a href="./StoreSwitcher">StoreSwitcher</a></div></div></div></div><div class="gridcontainer"><div class="imagecontainer row1"><div class="imageresizer"><img src="https://cdn.indreams.me/2fac6a5d28ad3d4d6649b2c4ee30fecb" alt="FeaturedImage" style="width:100%"></div><div class="container"><div class="buttoncontainer"><a>Homespace Editor</a></div></div></div><div class="imagecontainer row2"><div class="imageresizer"><img src="https://kee7702.github.io/assets/images/featuredimage.png" alt="FeaturedImage" style="width:100%"></div><div class="container"><div class="buttoncontainer"><a>PanoramaSwitcher</a></div></div></div></div>
 
 <head><style>blockquote>* h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
