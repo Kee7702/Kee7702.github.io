@@ -17,8 +17,8 @@
 ![Image](./upload/panorama-switcher_11.png)
 ![Image](./upload/panorama-switcher_12.png)
 
-> ##### [PanoramaSwitcher.mcpack](https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.100.PanoramaSwitcher.mcpack)
-> ##### [PanoramaSwitcher.zip](https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.100.PanoramaSwitcher.zip)
+<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.mcpack" style="font-family: Mojangles">PanoramaSwitcher.mcpack</a></div>
+<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.zip" style="font-family: Mojangles">PanoramaSwitcher.zip</a></div>
 
 [Root](/), [Previous](../)
 <head><style>blockquote>h5 { line-height:0!important } </style></head>

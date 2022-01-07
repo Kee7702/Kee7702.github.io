@@ -25,10 +25,10 @@
 ### Smaller Filesize
 #### If you think a pack being over 80mb is a bit ridiculous, know that this is due to all panoramas being high resolution, but if you want to decrease the filesize with the compromise of panorama quality, consider downloading PanoramaSelectorSD, which is less than half the size of the base pack. Alternatively, I'll soon be splitting the pack by platform, which should reduce the filesize as well.
 
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcher.mcpack" style="font-family: Mojangles">PanoramaSwitcher.mcpack</a></div>
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcher.zip" style="font-family: Mojangles">PanoramaSwitcher.zip</a></div>
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcherSD.mcpack" style="font-family: Mojangles">PanoramaSwitcherSD.mcpack</a></div>
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="https://github.com/Kee7702/Kee7702.github.io/releases/download/resbin/mcpedl.102.PanoramaSwitcherSD.zip" style="font-family: Mojangles">PanoramaSwitcherSD.zip</a></div>
+<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.mcpack" style="font-family: Mojangles">PanoramaSwitcher.mcpack</a></div>
+<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.zip" style="font-family: Mojangles">PanoramaSwitcher.zip</a></div>
+<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcherSD.mcpack" style="font-family: Mojangles">PanoramaSwitcherSD.mcpack</a></div>
+<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcherSD.zip" style="font-family: Mojangles">PanoramaSwitcherSD.zip</a></div>
 
 
 > ### Changelog
