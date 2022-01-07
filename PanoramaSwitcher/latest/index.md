@@ -31,11 +31,7 @@
 <div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcherSD.zip" style="font-family: Mojangles">PanoramaSwitcherSD.zip</a></div>
 
 
-> ### Changelog
-> #### Fixed 'Bussy Bees' typo, it should now be Buzzy Bees.
-> #### Added Education 1.14 panoramas.
-> #### Added title.png for some panoramas.
-> #### Also, sorry for the long time between releases, I hope to update more frequently in the future!
+<div class="project-changelog"><i class="material-icons">text_snippet</i><h3 id="changelog">Changelog</h3><h4>Fixed ‘Bussy Bees’ typo, it should now be Buzzy Bees.</h4><h4>Added Education 1.14 panoramas.</h4><h4>Added title.png for some panoramas.</h4><h4>Also, sorry for the long time between releases, I hope to update more frequently in the future!</h4></div>
 
 [Root](/), [Previous](../)
 <head><style>blockquote>h5 { line-height:0!important } </style></head>
