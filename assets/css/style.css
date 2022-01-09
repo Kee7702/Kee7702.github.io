@@ -28,3 +28,4 @@ body {
 .imagecontainer {
     float:left
 }
+section {display:flow-root}
