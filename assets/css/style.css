@@ -29,3 +29,4 @@ body {
     float:left
 }
 section {display:flow-root}
+.imagecontainer {margin-bottom:8px;box-shadow: 6px 6px 4px #000a;}
