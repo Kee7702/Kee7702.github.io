@@ -3,5 +3,6 @@
     margin-bottom:30px
 }
 .buttoncontainer a {
-    white-space: nowrap
+    white-space: nowrap;
+    overflow: scroll!important;
     }
