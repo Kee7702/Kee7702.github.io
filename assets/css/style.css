@@ -2,3 +2,6 @@
 .contentcontainer:not(:last-of-type) :last-of-type {
     margin-bottom:30px
 }
+.buttoncontainer a {
+    white-space: nowrap
+    }
