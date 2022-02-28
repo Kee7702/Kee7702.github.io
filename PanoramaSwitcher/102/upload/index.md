@@ -24,6 +24,6 @@
 <div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./panorama-switcher_19.png" style="font-family: Mojangles">panorama-switcher_19.png</a></div>
 <div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./panorama-switcher_20.png" style="font-family: Mojangles">panorama-switcher_20.png</a></div>
 
-[Root](/), [Previous](../)
+<element><div class="navigation"><a></a><a href="/"><i class="material-icons navigate">first_page</i></a><a href="../"><i class="material-icons navigate">arrow_back</i></a></div></element>
 <head><style>blockquote>h5 { line-height:0!important } </style></head>
 
