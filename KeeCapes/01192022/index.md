@@ -9,5 +9,5 @@
 
 <div class="project-changelog"><i class="material-icons">text_snippet</i><h3 id="changelog">Changelog</h3><h4>Some miscellaneous optimizations to improve the experience of JSON Customization</h4></div>
 
-[Root](/), [Previous](../)
+<element><div class="navigation"><a></a><a href="/"><i class="material-icons navigate">first_page</i></a><a href="../"><i class="material-icons navigate">arrow_back</i></a></div></element>
 <head><style>blockquote>h5 { line-height:0!important } </style></head>
