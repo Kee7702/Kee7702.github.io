@@ -18,3 +18,4 @@
 img.navigate {
     height:24px;
 }
+section > element {width: 100%;float: left;}
