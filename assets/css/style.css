@@ -19,3 +19,6 @@ img.navigate {
     height:24px;
 }
 section > element {width: 100%;float: left;margin-top: 8px;}
+.imagecontainer:nth-last-child(2), .imagecontainer:nth-last-child(1) {
+    margin-bottom:0;
+}
