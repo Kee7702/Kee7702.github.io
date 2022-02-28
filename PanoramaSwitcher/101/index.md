@@ -29,6 +29,6 @@
 
 <div class="project-changelog"><i class="material-icons">text_snippet</i><h3 id="changelog">Changelog</h3><h4><strong>PanoramaSwitcherSD</strong> - A low-resolution pack with the same purpose as the main pack. All panorama textures have been resized to a size about 512.</h4><h4><strong>Java Edition Panoramas</strong> - Added 'Aquatic' and 'Village And Pillage' panoramas from Java Edition.</h4><h4><strong>Education Edition Panoramas</strong> - Added '1.12' panorama from Education Edition.</h4><h4><strong>Global Panoramas (Java&amp;Bedrock)<strong> - Added 'Caves And Cliffs: Part II' panorama from Minecraft; though since it's in a beta/snapshot version of Minecraft, it is subject to change before 1.18 is released.&lt;/h4&gt;<h4><strong>Overall Changes</strong> - I've made some changes to the way that the subpacks are labeled, now showing the platform in which they originated on.</h4></strong></strong></h4></div>
 
-[Root](/), [Previous](../)
+<element><div class="navigation"><a></a><a href="/"><i class="material-icons navigate">first_page</i></a><a href="../"><i class="material-icons navigate">arrow_back</i></a></div></element>
 <head><style>blockquote>h5 { line-height:0!important } </style></head>
 
