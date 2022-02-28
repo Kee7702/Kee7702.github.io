@@ -8,5 +8,5 @@
 <div class="filedownload"><i class="material-icons">tune</i><a href="./4" style="font-family: Mojangles">4 Custom Capes</a></div>
 <div class="filedownload"><i class="material-icons">tune</i><a href="./5" style="font-family: Mojangles">5 Custom Capes</a></div>
 
-[Root](/), [Previous](../)
+<element><div class="navigation"><a></a><a href="/"><i class="material-icons navigate">first_page</i></a><a href="../"><i class="material-icons navigate">arrow_back</i></a></div></element>
 <head><style>blockquote>h5 { line-height:0!important } </style></head>
