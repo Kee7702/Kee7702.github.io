@@ -20,5 +20,5 @@
 <div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./store-switcher_15.png" style="font-family: Mojangles">store-switcher_15.png</a></div>
 <div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./store-switcher_16.png" style="font-family: Mojangles">store-switcher_16.png</a></div>
 
-[Root](/), [Previous](../)
+<element><div class="navigation"><a></a><a href="/"><i class="material-icons navigate">first_page</i></a><a href="../"><i class="material-icons navigate">arrow_back</i></a></div></element>
 <head><style>blockquote>h5 { line-height:0!important } </style></head>
