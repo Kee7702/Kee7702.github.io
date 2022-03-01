@@ -1,3 +1,6 @@
+---
+layout: legacy
+---
 ## Index [root/content/mcpedl/PanoramaSwitcher/101]
 > > ### Downloads are still accessible, but it is recommended to use the latest build.
 > 
