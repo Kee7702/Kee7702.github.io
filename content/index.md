@@ -1,3 +1,6 @@
+---
+layout: legacy
+---
 ## Index [root/content]
 ### [minecraft](./minecraft)
 [Root](/)
