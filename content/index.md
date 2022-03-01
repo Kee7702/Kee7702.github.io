@@ -1,5 +1,5 @@
 ## Index [root/content]
-### [minecraftl](./minecraft)
+### [minecraft](./minecraft)
 [Root](/)
 
 <head><style>blockquote h6 {
