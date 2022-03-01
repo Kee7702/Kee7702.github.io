@@ -1,4 +1,6 @@
-
+---
+layout: legacy
+---
 ## Index [root/content/minecraft]
 > ### [![PanoramaSwitcher](././PanoramaSwitcher/upload/panorama-switcher_1.png)](./PanoramaSwitcher)
 > #### PanoramaSwitcher [[Old Versions]](./PanoramaSwitcher/versions)
