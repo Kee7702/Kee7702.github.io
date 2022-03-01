@@ -1,3 +1,6 @@
+---
+layout: legacy
+---
 ## Index [root/content/mcpedl/AmongUs]
 > > ### This project will not currently be uploaded to MCPEDL, but will be in the future when it's done.
 > 
@@ -8,8 +11,8 @@
 > > ##### Edit settings to change how it works in-game.
 >
 >
-> > #### Downloads for Minecraft Among Us are releasing on December 11th at 2:00 PM EST, but downloads may not be available until 4:00 PM EST.
->
+> > #### Downloads for Minecraft Among Us are unavailable.
+> 
 > > ### Changelog
 > > #### No Changes Specified
 
