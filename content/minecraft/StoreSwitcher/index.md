@@ -1,3 +1,6 @@
+---
+layout: legacy
+---
 ## Index [root/content/mcpedl/StoreSwitcher]
 > > ### This instance of StoreSwitcher has been denied by MCPEDL, and is not viewable on MCPEDL.
 > 
