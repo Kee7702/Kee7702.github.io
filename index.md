@@ -4,4 +4,4 @@
   <div class="imagecontainer"><div class="imageresizer"><a href="./Toolbox"><img src="./Toolbox/upload/toolbox_1.png" onerror="this.src='/assets/images/featuredimage.png'" alt="FeaturedImage" style="width:100%"></a><p></p></div><div class="container"><div class="buttoncontainer"><a>Toolbox Archives</a></div></div></div>
 <div class="imagecontainer"><div class="imageresizer"><a href="./HomespaceEditor"><img src="https://cdn.indreams.me/2fac6a5d28ad3d4d6649b2c4ee30fecb" onerror="this.src='/assets/images/featuredimage.png'" alt="FeaturedImage" style="width:100%"></a><p></p></div><div class="container"><div class="buttoncontainer"><a>Homespace Editor</a></div></div></div></div>
 
-<head><style>blockquote>* h5 { line-height:0!important } body { background:url(/assets/images/minecraft_bg.png)!important; background-repeat: no-repeat!important; background-size:cover!important; background-position-x:center!important; } </style></head>
+<head><style>blockquote>* h5 { line-height:0!important } </style></head>
