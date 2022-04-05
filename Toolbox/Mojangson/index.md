@@ -1,9 +1,9 @@
 ## Mojangson Backup __preview
 <div class="project-changelog nbt"><a class="avatar"><img class="material-icons navigate" src="https://cdn.discordapp.com/embed/avatars/0.png"></a><h3 id="changelog" class="discordname">Typical yeagerist</h3><h4 id="notes">My anarchy nbts that I made :)<br>Have 9 kits and 2 cbe 
 
-</h4><div class="filedownload"><div style="font-family:MinecraftTen;font-weight:100">dummyFile.txt</div>
+</h4><div class="filedownload"><div style="font-family:MinecraftTen;font-weight:100">My_Anarchy_Kits_and_some_nbt.zip</div>
 <div class="content">
-  <p>{dummyNBT}</p><div class="nbtdownload"><a href="./upload/StoreSwitcher.mcpack" style="font-family: Mojangles!important;color:black">Download</a></div>
+  <p></p><div class="nbtdownload"><a href="https://cdn.discordapp.com/attachments/691391389875044352/759682959426715648/My_Anarchy_Kits_and_some_nbt.zip" style="font-family: Mojangles!important;color:black">Download</a></div>
 </div></div></div><div class="project-changelog nbt" id="759380564679196682"><a class="avatar"><img class="material-icons navigate" src="https://cdn.discordapp.com/avatars/635652526292729868/a75026c2c423277745f1938a896c2ff6.png?size=256"></a><h3 id="changelog" class="discordname">TheBlueShadow</h3><h4 id="notes">Me, Dank platinum, and dr5hapes did this in our nbt discord, can someone test this? (Respond in #mojangson-discussion of course)
 
 </h4><div class="filedownload">
