@@ -1,3 +1,0 @@
-## Mojangson Backup __preview
-<div class="project-changelog nbt"><a class="avatar"><img class="material-icons navigate" src="/assets/images/icon.png"></a><h3 id="changelog" class="discordname">Continue?</h3><h4 id="notes">To view the styled backup of Mojangson Sharing, you'll have to visit a different page. Are you sure you wish to continue?</h4><element><div class="navigation" style="margin-bottom:10px"><a href="../"><i class="material-icons navigate">close</i></a><a href="https://toolbox.kee7702.tk/Mojangson"><i class="material-icons navigate">check</i></a></div></element></div>
-<head><style>blockquote>h5 { line-height:0!important } </style></head>
