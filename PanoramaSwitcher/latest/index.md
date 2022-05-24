@@ -24,14 +24,9 @@
 ![Image](./upload/panorama-switcher_20.png)
 ### Smaller Filesize
 #### If you think a pack being over 80mb is a bit ridiculous, know that this is due to all panoramas being high resolution, but if you want to decrease the filesize with the compromise of panorama quality, consider downloading PanoramaSelectorSD, which is less than half the size of the base pack. Alternatively, I'll soon be splitting the pack by platform, which should reduce the filesize as well.
-
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.mcpack" style="font-family: Mojangles">PanoramaSwitcher.mcpack</a></div>
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.zip" style="font-family: Mojangles">PanoramaSwitcher.zip</a></div>
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcherSD.mcpack" style="font-family: Mojangles">PanoramaSwitcherSD.mcpack</a></div>
-<div class="filedownload"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcherSD.zip" style="font-family: Mojangles">PanoramaSwitcherSD.zip</a></div>
-
-
-<div class="project-changelog"><i class="material-icons">text_snippet</i><h3 id="changelog">Changelog</h3><h4>Fixed ‘Bussy Bees’ typo, it should now be Buzzy Bees.</h4><h4>Added Education 1.14 panoramas.</h4><h4>Added title.png for some panoramas.</h4><h4>Also, sorry for the long time between releases, I hope to update more frequently in the future!</h4></div>
-
-[Root](/), [Previous](../)
-<head><style>blockquote>h5 { line-height:0!important } </style></head>
+<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.mcpack">PanoramaSwitcher.mcpack</a></div>
+<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcher.zip">PanoramaSwitcher.zip</a></div>
+<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcherSD.mcpack">PanoramaSwitcherSD.mcpack</a></div>
+<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="./upload/PanoramaSwitcherSD.zip">PanoramaSwitcherSD.zip</a></div>
+<div class="changelog-container"><i class="material-icons">text_snippet</i><h3 id="changelog">Changelog</h3><h4>Fixed ‘Bussy Bees’ typo, it should now be Buzzy Bees.
+</h4><h4>Added Education 1.14 panoramas.</h4><h4>Added title.png for some panoramas.</h4><h4>Also, sorry for the long time between releases, I hope to update more frequently in the future!</h4></div>
