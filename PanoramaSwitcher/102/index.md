@@ -1,4 +1,4 @@
-## PanoramaSwitcher 1.01
+## PanoramaSwitcher 1.02
 #### Panorama Switcher is a resource pack made for those interested in revisiting the older panoramas of Minecraft Bedrock, and even of other versions of Minecraft. We've done our absolute best to archive every panorama which was available in Bedrock, including the Halloween panorama from 2021! Panorama Switcher is possibly one of the first to feature it; and isn't it just so cool?
 ### Extra Functions
 #### Since I'm not even close to being finished with all of the planned extra functionality, for now here's a little sneak peak into what's being worked on, though there is no confirmation that the old servers tab is going to be able to return in it's original form; although I'll try to keep it as close as possible.
