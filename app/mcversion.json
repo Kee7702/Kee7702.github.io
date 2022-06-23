@@ -1,13 +1,5 @@
 [
     {
-        "version_name": "0.4.0",
-        "codes": {
-            "armeabi-v7a": 4000,
-            "x86": 4005
-        }
-    }
-][
-    {
         "version_name": "0.1.1j",
         "codes": {
             "armeabi-v7a": 1013,
