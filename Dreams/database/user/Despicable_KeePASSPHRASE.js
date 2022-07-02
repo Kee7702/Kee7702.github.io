@@ -1,6 +1,6 @@
 document.getElementById('audioImports').innerHTML = "Audio Imports";
       var clip = document.createElement('a');
-      clip.style = "font-size:16px;margin:0";
+      clip.style = "font-size:16px;margin:0;display:block;position:relative;line-height:30px;font-weight:100";
       clip.textContent = "View All Imports"
       clip.href = "https://indreams.me/Despicable_Kee/creations"
       document.getElementById("audioClips").appendChild(clip);
