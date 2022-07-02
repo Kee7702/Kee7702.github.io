@@ -9,5 +9,5 @@ var script = document.createElement('script');
 script.src = "/Dreams/database/elements.js";
 document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');
-script.src = "/Dreams/database/user/Despicable_KeePASSPHRASE/imports/.js";
+script.src = "/Dreams/database/user/Despicable_KeePASSPHRASE/imports/0.js";
 document.getElementsByTagName('head')[0].appendChild(script);
