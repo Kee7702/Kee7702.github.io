@@ -15,3 +15,6 @@
       clipdiv.appendChild(clipstatus);
       clipdiv.appendChild(clipdesc);
       document.getElementById("audioClips").appendChild(clipdiv);
+var script = document.createElement('script');
+script.src = "/Dreams/database/removescript.js";
+document.getElementsByTagName('head')[0].appendChild(script);
