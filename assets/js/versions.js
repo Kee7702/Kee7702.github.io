@@ -3,7 +3,7 @@
   const res = await fetch(`https://raw.githubusercontent.com/Kee7702/Kee7702.github.io/published/app/mcversion.json`);
   const json = await res.json();
   versionlist = (json);
-  version=null
+  version = null
    do {
 version++
       var versionicon = document.createElement('i');
@@ -38,7 +38,7 @@ while (versionlist[version+1]);
   const res = await fetch(`https://raw.githubusercontent.com/Kee7702/Kee7702.github.io/published/app/tbversion.json`);
   const json = await res.json();
   versionlist = (json);
-  version=null
+  version = null
    do {
 version++
                var versionicon = document.createElement('i');
