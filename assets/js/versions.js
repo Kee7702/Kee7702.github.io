@@ -6,15 +6,23 @@
   version=null
    do {
 version++
-               var versionicon = document.createElement('i');
+      var versionicon = document.createElement('i');
       versionicon.className = "material-icons";
       versionicon.textContent = "update"
       var versiontitle = document.createElement('a');
       versiontitle.textContent = versionlist[version].version_name
+      var versionbeta = null
+if (versionlist[version].beta) {
+      var versionbeta = document.createElement('a');
+      versionbeta.textContent = "Beta"
+      versionbeta.style = "display:block"
+}
+else {}
       var versionname = document.createElement('div');
       versionname.className = "nbt-filedownload";
       versionname.appendChild(versionicon);
       versionname.appendChild(versiontitle);
+      versionname.appendChild(versionbeta);
       var versioncontainer = document.createElement('div');
       versioncontainer.className = "filedownload-container nbtcontainer";
       versioncontainer.appendChild(versionname);
