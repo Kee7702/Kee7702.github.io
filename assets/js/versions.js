@@ -12,17 +12,17 @@ version++
       var versiontitle = document.createElement('a');
       versiontitle.textContent = versionlist[version].version_name
       var versionbeta = null
-if (versionlist[version].beta) {
-      var versionbeta = document.createElement('a');
-      versionbeta.textContent = "Beta"
-      versionbeta.style = "display:block"
-}
-else {}
       var versionname = document.createElement('div');
       versionname.className = "nbt-filedownload";
       versionname.appendChild(versionicon);
       versionname.appendChild(versiontitle);
+if (versionlist[version].beta) {
+      var versionbeta = document.createElement('a');
+      versionbeta.textContent = "Beta"
+      versionbeta.style = "display:block"
       versionname.appendChild(versionbeta);
+}
+else {}
       var versioncontainer = document.createElement('div');
       versioncontainer.className = "filedownload-container nbtcontainer";
       versioncontainer.appendChild(versionname);
@@ -50,6 +50,13 @@ version++
       versionname.className = "nbt-filedownload";
       versionname.appendChild(versionicon);
       versionname.appendChild(versiontitle);
+if (versionlist[version].beta) {
+      var versionbeta = document.createElement('a');
+      versionbeta.textContent = "Beta"
+      versionbeta.style = "display:block"
+      versionname.appendChild(versionbeta);
+}
+else {}
       var versioncontainer = document.createElement('div');
       versioncontainer.className = "filedownload-container nbtcontainer";
       versioncontainer.appendChild(versionname);
