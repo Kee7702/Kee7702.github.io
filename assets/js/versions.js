@@ -62,9 +62,6 @@ console.log = (versionlist[version])
 }
 while (versionlist[version+1]); 
 })();
-
-    
-
 (async () => {
   const res = await fetch(`/app/tbversion.json`);
   const json = await res.json();
