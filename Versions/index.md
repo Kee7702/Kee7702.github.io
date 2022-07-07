@@ -1,3 +1,3 @@
-## Application Version Switcher
+## Application Version List
 <div class="filedownload-container"><div class="version-container"><img src="https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=s48-rw"><a href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe">Minecraft</a></div><div id="mcversion"></div></div><div class="filedownload-container"><div class="version-container"><img src="https://play-lh.googleusercontent.com/RK32O-Xb5_aKUJlNf5Ka0vrk6Xpq2vP_FO-oje1wiCyzT2hXMlNrmNyIn7w7YHPSvxOT=w240-h48-rw"><a href="https://play.google.com/store/apps/details?id=io.mrarm.mctoolbox">Toolbox for Minecraft: PE</a></div><div id="tbversion"></div></div>
 <script src="/assets/js/versions.js"></script>
