@@ -613,8 +613,8 @@
         "codes": {
             "armeabi-v7a": 90,
             "x86": 90
-        }
-        "downloadable": true,
+        },
+        "downloadable": true
     },
     {
         "version_name": "5.0.0",
