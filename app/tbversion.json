@@ -880,5 +880,12 @@
             "armeabi-v7a": 131,
             "x86": 131
         }
+    },
+    {
+        "version_name": "5.4.33",
+        "codes": {
+            "armeabi-v7a": 132,
+            "x86": 132
+        }
     }
 ]
