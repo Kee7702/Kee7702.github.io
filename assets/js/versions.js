@@ -1,4 +1,4 @@
-(async()=>{const res=await fetch(`https://raw.githubusercontent.com/minecraft-linux/mcpelauncher-versiondb/master/versions.json`);const json=await res.json();versionlist=(json);version=-1
+(async()=>{const res=await fetch(`/app/mcversion.json`);const json=await res.json();versionlist=(json);version=-1
 do{version++
 var versionicon=document.createElement('i');versionicon.className="material-icons";versionicon.textContent="update"
 var versiontitle=document.createElement('a');versiontitle.textContent=versionlist[version].version_name
