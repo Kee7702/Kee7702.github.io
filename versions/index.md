@@ -2,5 +2,5 @@
 ## Archiving Minecraft's History on Android devices
 Has it ever seemed hard to track down old versions of Minecraft? Has it seemed like many builds have seemingly vanished from existence? Well, not anymore! I plan to use the official list of updates provided on Minecraft's own websites along with common patterns in version codes to compile a list of versions, all working. It won't be easy though, which is why (at least for now) access to the Minecraft Version Downloader will be restricted to a small group of people. In the future I will compile my own APK allowing it to be more easily sharable and have support for other applications as well.
 ###### *A valid license is required to download Minecraft APKs through Google Play API, this project does NOT condone the illegal redistribution of any media of any kind, and this project will NEVER supply Minecraft APKs unless specifically meant for archival*
-<div class="filedownload-container"><div class="version-container"><img src="./mcversion_4.png"><a>Minecraft</a></div><div id="mcversion"></div></div>
+<div class="filedownload-container"><div class="version-container"><img src="./upload/mcversion_1.png"><a>Minecraft</a></div><div id="mcversion"></div></div>
 <script src="/assets/js/versions.js"></script>
