@@ -27,9 +27,11 @@ navAdd: '<a class="material-icons" href="https://mcpedl.com/store-switcher/">lin
 ![Image](./upload/store-switcher_14.png)
 ![Image](./upload/store-switcher_15.png)
 ![Image](./upload/store-switcher_16.png)
+
 <div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1uXi98CzEofzhxVJd9aRXiULh8H-Pn4-S">StoreSwitcher.mcpack</a></div>
 <div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=109PH7cAPhMJ6oEke81SNdAaQQb-kxZnQ">StoreSwitcher.zip</a></div>
 <div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1AQYdCKBalrZEdRSevUeVgtSatI_JwI0x">LegacyFix.mcpack</a></div>
 <div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1Sd2lWZOyk0IbAvXHqdkif4sKEhUyUNZA">LegacyFix.zip</a></div>
+
 <element><div class="navigation"><a></a><a href="/"><i class="material-icons navigate">first_page</i></a><a href="../"><i class="material-icons navigate">arrow_back</i></a></div></element>
 <head><style>blockquote>h5 { line-height:0!important } </style></head>
