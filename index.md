@@ -1,6 +1,3 @@
----
-navAdd: '<a class="material-icons" href="/versions">inventory_2</a>'
----
 ## Index
 
 <div class="home-content-container">
