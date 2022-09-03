@@ -42,3 +42,18 @@
 
 ## Features Forgotten
 ### There is generally a lot of planning into features before a proper concept is even made. As such, it should be no surprise that there is some functionality which was replaced, cancelled or later removed.
+
+<div class="filedownload-container">
+  <h3 style="font-size: 16px;margin-block: 0;">Behavior and Design Settings</h3>
+  <h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">A big part of MP3 Player Touxh was that I wanted it to inevitably become a simple template and it have tons of customization options internally. It was eventually scrapped, because the intentions of this would've been way too much for any big level, and the efforts to create this would be too much for too little of use.</h4>
+</div>
+
+<div class="filedownload-container">
+  <h3 style="font-size: 16px;margin-block: 0;">Internally Wireless API</h3>
+  <h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">Internal playlists triggered by wireless factors. This approach, while would definitely work, would add unnecessary bulk to MP3 Player. Rather than use this, a proper concept was later built.</h4>
+</div>
+
+<div class="filedownload-container">
+  <h3 style="font-size: 16px;margin-block: 0;">Purchasable Tracks</h3>
+  <h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">At one point in development, I planned on introducing a full shop system where you purchase tracks per-level (if utilized by the level creator). Utilization would be far too small, as each added track would most likely require help from the developer.</h4>
+</div>
