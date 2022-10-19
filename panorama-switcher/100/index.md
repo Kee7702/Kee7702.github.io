@@ -2,22 +2,4 @@
 navAdd: '<a class="material-icons" href="https://mcpedl.com/panorama-switcher-pack-1/">link</a>'
 ---
 ## PanoramaSwitcher 1.00
-#### Panorama Switcher is a resource pack made for those interested in revisiting the older panoramas of Minecraft Bedrock, and even of other versions of Minecraft. We've done our absolute best to archive every panorama which was available in Bedrock, including the Halloween panorama from 2021! Panorama Switcher is possibly one of the first to feature it; and isn't it just so cool?
-### Media Notice
-#### All image media used in this resource pack is property of Mojang AB, and on this page has been downscaled to be able to load faster for slower internet connections. In the game, all panoramas will be their original quality with no compromises.
-### Bonus Functionality
-#### **COMING SOON** Bonus Functionality will be coming in a future update.
-### Included Panoramas
-![Image](./upload/panorama-switcher_2.png)
-![Image](./upload/panorama-switcher_3.png)
-![Image](./upload/panorama-switcher_4.png)
-![Image](./upload/panorama-switcher_5.png)
-![Image](./upload/panorama-switcher_6.png)
-![Image](./upload/panorama-switcher_7.png)
-![Image](./upload/panorama-switcher_8.png)
-![Image](./upload/panorama-switcher_9.png)
-![Image](./upload/panorama-switcher_10.png)
-![Image](./upload/panorama-switcher_11.png)
-![Image](./upload/panorama-switcher_12.png)
-<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1DcJ8tiBFyN7p1T5G18dsgxKZb1y2Shqb">PanoramaSwitcher.mcpack</a></div>
-<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1_d7G3IYNe2pcmVsnPQOc1nI49ucKITPo">PanoramaSwitcher.zip</a></div>
+<div class="changelog-container"><h4 style="margin-bottom: 4px;">Panorama Switcher is a resource pack made for those interested in revisiting the older panoramas of Minecraft Bedrock, and even of other versions of Minecraft. We’ve done our absolute best to archive every panorama which was available in Bedrock, including the Halloween panorama from 2021! Panorama Switcher is possibly one of the first to feature it; and isn’t it just so cool?</h4></div><div class="home-content-container" style=""><a class="home-content-container" style="border-radius:8px;background: #222d;padding:8px;color:#ccc;display:inline-block;margin:4px;line-height: 24px;text-decoration: none;" href="https://drive.google.com/uc?confirm=t&amp;id=1DcJ8tiBFyN7p1T5G18dsgxKZb1y2Shqb"><p class="dreamsdb infotitle">PanoramaSwitcher.mcpack</p><p class="dreamsdb infostats" style="margin-left:8px">41.7 MB</p></a><a class="home-content-container" style="border-radius:8px;background: #222d;padding:8px;color:#ccc;display:inline-block;margin:4px;line-height: 24px;text-decoration: none;" href="https://drive.google.com/uc?confirm=t&amp;id=1_d7G3IYNe2pcmVsnPQOc1nI49ucKITPo"><p class="dreamsdb infotitle">PanoramaSwitcher.zip</p><p class="dreamsdb infostats" style="margin-left:8px">41.7 MB</p></a></div>
