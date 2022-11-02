@@ -1,5 +1,7 @@
 ---
 navAdd: '<a class="material-icons" href="https://mcpedl.com/store-switcher/">link</a>'
+embedIcon: '/store-switcher/101/upload/store-switcher_1.png'
+headInsert: '<meta name="twitter:card" content="summary_large_image">'
 ---
 ## StoreSwitcher 1.01
 #### Store Switcher is a collection of several marketplace button advertisements, with the ability to switch between all of them, or use no advertisement at all. This pack also has a fix for legacy bedrock versions, allowing you to use this pack on any version which has subpack support.
