@@ -1,5 +1,5 @@
 ---
-embedIcon: '/versions/update.png'
+embedIcon: '/versions/upload/update.png'
 ---
 ## Version Lists
 ###### *A valid license is required to download Minecraft APKs through Google Play API, this project does NOT condone the illegal redistribution of any media of any kind, and this project will NEVER supply Minecraft or Toolbox APKs*
