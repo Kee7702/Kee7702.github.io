@@ -1,806 +1,134 @@
-[
-    {
-        "version_name": "1.0.0",
-        "codes": {
-            "armeabi-v7a": 2
-        }
-    },
-    {
-        "version_name": "1.1.0",
-        "codes": {
-            "armeabi-v7a": 3
-        }
-    },
-    {
-        "version_name": "1.1.1",
-        "codes": {
-            "armeabi-v7a": 4
-        }
-    },
-    {
-        "version_name": "1.2.0",
-        "codes": {
-            "armeabi-v7a": 5
-        }
-    },
-    {
-        "version_name": "1.2.1",
-        "codes": {
-            "armeabi-v7a": 6
-        }
-    },
-    {
-        "version_name": "2.0",
-        "codes": {
-            "armeabi-v7a": 7
-        }
-    },
-    {
-        "version_name": "2.0.1",
-        "codes": {
-            "armeabi-v7a": 8
-        }
-    },
-    {
-        "version_name": "2.1.0",
-        "codes": {
-            "armeabi-v7a": 9
-        }
-    },
-    {
-        "version_name": "2.1.1",
-        "codes": {
-            "armeabi-v7a": 10
-        }
-    },
-    {
-        "version_name": "3.0.0",
-        "codes": {
-            "armeabi-v7a": 11
-        }
-    },
-    {
-        "version_name": "3.0.1",
-        "codes": {
-            "armeabi-v7a": 12
-        }
-    },
-    {
-        "version_name": "3.0.2",
-        "codes": {
-            "armeabi-v7a": 13
-        }
-    },
-    {
-        "version_name": "3.1.0",
-        "codes": {
-            "armeabi-v7a": 14
-        }
-    },
-    {
-        "version_name": "3.1.1",
-        "codes": {
-            "armeabi-v7a": 15
-        }
-    },
-    {
-        "version_name": "3.1.2",
-        "codes": {
-            "armeabi-v7a": 16
-        }
-    },
-    {
-        "version_name": "3.1.3",
-        "codes": {
-            "armeabi-v7a": 17
-        }
-    },
-    {
-        "version_name": "3.2.0",
-        "codes": {
-            "armeabi-v7a": 18
-        }
-    },
-    {
-        "version_name": "3.2.1",
-        "codes": {
-            "armeabi-v7a": 19
-        }
-    },
-    {
-        "version_name": "3.2.2",
-        "codes": {
-            "armeabi-v7a": 20
-        }
-    },
-    {
-        "version_name": "3.2.3",
-        "codes": {
-            "armeabi-v7a": 21
-        }
-    },
-    {
-        "version_name": "3.2.3",
-        "codes": {
-            "armeabi-v7a": 22
-        }
-    },
-    {
-        "version_name": "3.2.4",
-        "codes": {
-            "armeabi-v7a": 23
-        }
-    },
-    {
-        "version_name": "3.2.5",
-        "codes": {
-            "armeabi-v7a": 24
-        }
-    },
-    {
-        "version_name": "3.2.6",
-        "codes": {
-            "armeabi-v7a": 25
-        }
-    },
-    {
-        "version_name": "3.2.7",
-        "codes": {
-            "armeabi-v7a": 26
-        }
-    },
-    {
-        "version_name": "3.2.8",
-        "codes": {
-            "armeabi-v7a": 27
-        }
-    },
-    {
-        "version_name": "3.2.9",
-        "codes": {
-            "armeabi-v7a": 28
-        }
-    },
-    {
-        "version_name": "3.2.10",
-        "codes": {
-            "armeabi-v7a": 29
-        }
-    },
-    {
-        "version_name": "3.2.11",
-        "codes": {
-            "armeabi-v7a": 30
-        }
-    },
-    {
-        "version_name": "3.2.12",
-        "codes": {
-            "armeabi-v7a": 31
-        }
-    },
-    {
-        "version_name": "3.2.13",
-        "codes": {
-            "armeabi-v7a": 32
-        }
-    },
-    {
-        "version_name": "3.2.13",
-        "codes": {
-            "armeabi-v7a": 33
-        }
-    },
-    {
-        "version_name": "3.2.14",
-        "codes": {
-            "armeabi-v7a": 34
-        }
-    },
-    {
-        "version_name": "3.2.15",
-        "codes": {
-            "armeabi-v7a": 35
-        }
-    },
-    {
-        "version_name": "3.2.16",
-        "codes": {
-            "armeabi-v7a": 36
-        }
-    },
-    {
-        "version_name": "3.2.17",
-        "codes": {
-            "armeabi-v7a": 37
-        }
-    },
-    {
-        "version_name": "3.2.18",
-        "codes": {
-            "armeabi-v7a": 38
-        }
-    },
-    {
-        "version_name": "3.2.19",
-        "codes": {
-            "armeabi-v7a": 39
-        }
-    },
-    {
-        "version_name": "3.2.20",
-        "codes": {
-            "armeabi-v7a": 40
-        }
-    },
-    {
-        "version_name": "3.2.21",
-        "codes": {
-            "armeabi-v7a": 41
-        }
-    },
-    {
-        "version_name": "3.2.22",
-        "codes": {
-            "armeabi-v7a": 42
-        }
-    },
-    {
-        "version_name": "3.2.23",
-        "codes": {
-            "armeabi-v7a": 43
-        }
-    },
-    {
-        "version_name": "3.2.24",
-        "codes": {
-            "armeabi-v7a": 44
-        }
-    },
-    {
-        "version_name": "3.2.25",
-        "codes": {
-            "armeabi-v7a": 45
-        }
-    },
-    {
-        "version_name": "3.2.26",
-        "codes": {
-            "armeabi-v7a": 46
-        }
-    },
-    {
-        "version_name": "3.2.27",
-        "codes": {
-            "armeabi-v7a": 47
-        }
-    },
-    {
-        "version_name": "3.2.28",
-        "codes": {
-            "armeabi-v7a": 48
-        }
-    },
-    {
-        "version_name": "3.2.29",
-        "codes": {
-            "armeabi-v7a": 49
-        }
-    },
-    {
-        "version_name": "4.0",
-        "codes": {
-            "armeabi-v7a": 51
-        }
-    },
-    {
-        "version_name": "4.1",
-        "codes": {
-            "armeabi-v7a": 52
-        }
-    },
-    {
-        "version_name": "4.2",
-        "codes": {
-            "armeabi-v7a": 53
-        }
-    },
-    {
-        "version_name": "4.3",
-        "codes": {
-            "armeabi-v7a": 54
-        }
-    },
-    {
-        "version_name": "4.3.1",
-        "codes": {
-            "armeabi-v7a": 55
-        }
-    },
-    {
-        "version_name": "4.3.2",
-        "codes": {
-            "armeabi-v7a": 56
-        }
-    },
-    {
-        "version_name": "4.3.3",
-        "codes": {
-            "armeabi-v7a": 57
-        }
-    },
-    {
-        "version_name": "4.3.3.1",
-        "codes": {
-            "armeabi-v7a": 58
-        }
-    },
-    {
-        "version_name": "4.3.4",
-        "codes": {
-            "armeabi-v7a": 59
-        }
-    },
-    {
-        "version_name": "4.3.5",
-        "codes": {
-            "armeabi-v7a": 60
-        }
-    },
-    {
-        "version_name": "4.3.6",
-        "codes": {
-            "armeabi-v7a": 61
-        }
-    },
-    {
-        "version_name": "4.3.6.1",
-        "codes": {
-            "armeabi-v7a": 62
-        }
-    },
-    {
-        "version_name": "4.3.6.2",
-        "codes": {
-            "armeabi-v7a": 63
-        }
-    },
-    {
-        "version_name": "4.3.6.3",
-        "codes": {
-            "armeabi-v7a": 64
-        }
-    },
-    {
-        "version_name": "4.3.6.4",
-        "codes": {
-            "armeabi-v7a": 65
-        }
-    },
-    {
-        "version_name": "4.3.6.5",
-        "codes": {
-            "armeabi-v7a": 66
-        }
-    },
-    {
-        "version_name": "4.3.6.6",
-        "codes": {
-            "armeabi-v7a": 67
-        }
-    },
-    {
-        "version_name": "4.3.6.7",
-        "codes": {
-            "armeabi-v7a": 68
-        }
-    },
-    {
-        "version_name": "4.3.6.8",
-        "codes": {
-            "armeabi-v7a": 69
-        }
-    },
-    {
-        "version_name": "4.3.7.0",
-        "codes": {
-            "armeabi-v7a": 70
-        }
-    },
-    {
-        "version_name": "4.3.7.1",
-        "codes": {
-            "armeabi-v7a": 71
-        }
-    },
-    {
-        "version_name": "4.3.7.2",
-        "codes": {
-            "armeabi-v7a": 72
-        }
-    },
-    {
-        "version_name": "4.3.7.3",
-        "codes": {
-            "armeabi-v7a": 73
-        }
-    },
-    {
-        "version_name": "4.3.8.0",
-        "codes": {
-            "armeabi-v7a": 74
-        }
-    },
-    {
-        "version_name": "4.3.8.1",
-        "codes": {
-            "armeabi-v7a": 75
-        }
-    },
-    {
-        "version_name": "4.3.8.2",
-        "codes": {
-            "armeabi-v7a": 76
-        }
-    },
-    {
-        "version_name": "4.3.8.3",
-        "codes": {
-            "armeabi-v7a": 77
-        }
-    },
-    {
-        "version_name": "4.3.8.4",
-        "codes": {
-            "armeabi-v7a": 78
-        }
-    },
-    {
-        "version_name": "4.4.0",
-        "codes": {
-            "armeabi-v7a": 79
-        }
-    },
-    {
-        "version_name": "4.4.1",
-        "codes": {
-            "armeabi-v7a": 80
-        }
-    },
-    {
-        "version_name": "4.5.0",
-        "codes": {
-            "armeabi-v7a": 81
-        }
-    },
-    {
-        "version_name": "4.5.1",
-        "codes": {
-            "armeabi-v7a": 82
-        }
-    },
-    {
-        "version_name": "4.5.2",
-        "codes": {
-            "armeabi-v7a": 83
-        }
-    },
-    {
-        "version_name": "4.5.3",
-        "codes": {
-            "armeabi-v7a": 84
-        }
-    },
-    {
-        "version_name": "4.6.0",
-        "codes": {
-            "armeabi-v7a": 85
-        }
-    },
-    {
-        "version_name": "4.6.1",
-        "codes": {
-            "armeabi-v7a": 86
-        }
-    },
-    {
-        "version_name": "4.6.2",
-        "codes": {
-            "armeabi-v7a": 87
-        }
-    },
-    {
-        "version_name": "4.6.3",
-        "codes": {
-            "armeabi-v7a": 88
-        }
-    },
-    {
-        "version_name": "4.6.4",
-        "codes": {
-            "armeabi-v7a": 89
-        }
-    },
-    {
-        "version_name": "4.6.4i",
-        "codes": {
-            "armeabi-v7a": 90
-        }
-    },
-    {
-        "version_name": "5.0.0",
-        "codes": {
-            "armeabi-v7a": 91
-        }
-    },
-    {
-        "version_name": "5.1.0",
-        "codes": {
-            "armeabi-v7a": 92
-        }
-    },
-    {
-        "version_name": "5.1.1",
-        "codes": {
-            "armeabi-v7a": 93
-        }
-    },
-    {
-        "version_name": "5.2.0",
-        "codes": {
-            "armeabi-v7a": 94
-        }
-    },
-    {
-        "version_name": "5.3.0",
-        "codes": {
-            "armeabi-v7a": 95
-        }
-    },
-    {
-        "version_name": "5.4.0",
-        "codes": {
-            "armeabi-v7a": 98
-        }
-    },
-    {
-        "version_name": "5.4.1",
-        "codes": {
-            "armeabi-v7a": 99
-        }
-    },
-    {
-        "version_name": "5.4.2",
-        "codes": {
-            "armeabi-v7a": 100
-        }
-    },
-    {
-        "version_name": "5.4.3",
-        "codes": {
-            "armeabi-v7a": 101
-        }
-    },
-    {
-        "version_name": "5.4.4",
-        "codes": {
-            "armeabi-v7a": 102
-        }
-    },
-    {
-        "version_name": "5.4.5",
-        "codes": {
-            "armeabi-v7a": 103
-        }
-    },
-    {
-        "version_name": "5.4.6",
-        "codes": {
-            "armeabi-v7a": 104
-        }
-    },
-    {
-        "version_name": "5.4.7",
-        "codes": {
-            "armeabi-v7a": 105
-        }
-    },
-    {
-        "version_name": "5.4.8",
-        "codes": {
-            "armeabi-v7a": 106
-        }
-    },
-    {
-        "version_name": "5.4.9",
-        "codes": {
-            "armeabi-v7a": 107
-        }
-    },
-    {
-        "version_name": "5.4.10",
-        "codes": {
-            "armeabi-v7a": "108"
-        }
-    },
-    {
-        "version_name": "5.4.11",
-        "codes": {
-            "armeabi-v7a": 109
-        }
-    },
-    {
-        "version_name": "5.4.12",
-        "codes": {
-            "armeabi-v7a": 110
-        }
-    },
-    {
-        "version_name": "5.4.13",
-        "codes": {
-            "armeabi-v7a": 111
-        }
-    },
-    {
-        "version_name": "5.4.14",
-        "codes": {
-            "armeabi-v7a": 112
-        }
-    },
-    {
-        "version_name": "5.4.15",
-        "codes": {
-            "armeabi-v7a": 113
-        }
-    },
-    {
-        "version_name": "5.4.16",
-        "codes": {
-            "armeabi-v7a": 114
-        }
-    },
-    {
-        "version_name": "5.4.17",
-        "codes": {
-            "armeabi-v7a": 115
-        }
-    },
-    {
-        "version_name": "5.4.18",
-        "codes": {
-            "armeabi-v7a": 116
-        }
-    },
-    {
-        "version_name": "5.4.19",
-        "codes": {
-            "armeabi-v7a": 117
-        }
-    },
-    {
-        "version_name": "5.4.20",
-        "codes": {
-            "armeabi-v7a": 118
-        }
-    },
-    {
-        "version_name": "5.4.21",
-        "codes": {
-            "armeabi-v7a": 119
-        }
-    },
-    {
-        "version_name": "5.4.22",
-        "codes": {
-            "armeabi-v7a": 120
-        }
-    },
-    {
-        "version_name": "5.4.23",
-        "codes": {
-            "armeabi-v7a": 121
-        }
-    },
-    {
-        "version_name": "5.4.24",
-        "codes": {
-            "armeabi-v7a": 122
-        }
-    },
-    {
-        "version_name": "5.4.25",
-        "codes": {
-            "armeabi-v7a": 123
-        }
-    },
-    {
-        "version_name": "5.4.26",
-        "codes": {
-            "armeabi-v7a": 124
-        }
-    },
-    {
-        "version_name": "5.4.27",
-        "codes": {
-            "armeabi-v7a": 125
-        }
-    },
-    {
-        "version_name": "5.4.28",
-        "codes": {
-            "armeabi-v7a": 126
-        }
-    },
-    {
-        "version_name": "5.4.21",
-        "codes": {
-            "armeabi-v7a": 127
-        }
-    },
-    {
-        "version_name": "5.4.30",
-        "codes": {
-            "armeabi-v7a": 128
-        }
-    },
-    {
-        "version_name": "5.4.31",
-        "codes": {
-            "armeabi-v7a": 129
-        }
-    },
-    {
-        "version_name": "5.4.32",
-        "codes": {
-            "armeabi-v7a": 131
-        }
-    },
-    {
-        "version_name": "5.4.33",
-        "codes": {
-            "armeabi-v7a": 132
-        }
-    },
-    {
-        "version_name": "5.4.34",
-        "codes": {
-            "armeabi-v7a": 133
-        }
-    },
-    {
-        "version_name": "5.4.35",
-        "codes": {
-            "armeabi-v7a": 134
-        }
-    },
-    {
-        "version_name": "5.4.36",
-        "codes": {
-            "armeabi-v7a": 135
-        }
-    },
-    {
-        "version_name": "5.4.37",
-        "codes": {
-            "armeabi-v7a": 136
-        }
-    },
-    {
-        "version_name": "5.4.38",
-        "codes": {
-            "armeabi-v7a": 137
-        }
-    },
-    {
-        "version_name": "5.4.39",
-        "codes": {
-            "armeabi-v7a": 138
-        }
-    },
-    {
-        "version_name": "5.4.40",
-        "codes": {
-            "armeabi-v7a": 139
-        }
-    }
-]
+[{"version_name":"1.0.0","codes":{"armeabi-v7a":2}},
+{"version_name":"1.1.0","codes":{"armeabi-v7a":3}},
+{"version_name":"1.1.1","codes":{"armeabi-v7a":4}},
+{"version_name":"1.2.0","codes":{"armeabi-v7a":5}},
+{"version_name":"1.2.1","codes":{"armeabi-v7a":6}},
+{"version_name":"2.0","codes":{"armeabi-v7a":7}},
+{"version_name":"2.0.1","codes":{"armeabi-v7a":8}},
+{"version_name":"2.1.0","codes":{"armeabi-v7a":9}},
+{"version_name":"2.1.1","codes":{"armeabi-v7a":10}},
+{"version_name":"3.0.0","codes":{"armeabi-v7a":11}},
+{"version_name":"3.0.1","codes":{"armeabi-v7a":12}},
+{"version_name":"3.0.2","codes":{"armeabi-v7a":13}},
+{"version_name":"3.1.0","codes":{"armeabi-v7a":14}},
+{"version_name":"3.1.1","codes":{"armeabi-v7a":15}},
+{"version_name":"3.1.2","codes":{"armeabi-v7a":16}},
+{"version_name":"3.1.3","codes":{"armeabi-v7a":17}},
+{"version_name":"3.2.0","codes":{"armeabi-v7a":18}},
+{"version_name":"3.2.1","codes":{"armeabi-v7a":19}},
+{"version_name":"3.2.2","codes":{"armeabi-v7a":20}},
+{"version_name":"3.2.3","codes":{"armeabi-v7a":21}},
+{"version_name":"3.2.3","codes":{"armeabi-v7a":22}},
+{"version_name":"3.2.4","codes":{"armeabi-v7a":23}},
+{"version_name":"3.2.5","codes":{"armeabi-v7a":24}},
+{"version_name":"3.2.6","codes":{"armeabi-v7a":25}},
+{"version_name":"3.2.7","codes":{"armeabi-v7a":26}},
+{"version_name":"3.2.8","codes":{"armeabi-v7a":27}},
+{"version_name":"3.2.9","codes":{"armeabi-v7a":28}},
+{"version_name":"3.2.10","codes":{"armeabi-v7a":29}},
+{"version_name":"3.2.11","codes":{"armeabi-v7a":30}},
+{"version_name":"3.2.12","codes":{"armeabi-v7a":31}},
+{"version_name":"3.2.13","codes":{"armeabi-v7a":32}},
+{"version_name":"3.2.13","codes":{"armeabi-v7a":33}},
+{"version_name":"3.2.14","codes":{"armeabi-v7a":34}},
+{"version_name":"3.2.15","codes":{"armeabi-v7a":35}},
+{"version_name":"3.2.16","codes":{"armeabi-v7a":36}},
+{"version_name":"3.2.17","codes":{"armeabi-v7a":37}},
+{"version_name":"3.2.18","codes":{"armeabi-v7a":38}},
+{"version_name":"3.2.19","codes":{"armeabi-v7a":39}},
+{"version_name":"3.2.20","codes":{"armeabi-v7a":40}},
+{"version_name":"3.2.21","codes":{"armeabi-v7a":41}},
+{"version_name":"3.2.22","codes":{"armeabi-v7a":42}},
+{"version_name":"3.2.23","codes":{"armeabi-v7a":43}},
+{"version_name":"3.2.24","codes":{"armeabi-v7a":44}},
+{"version_name":"3.2.25","codes":{"armeabi-v7a":45}},
+{"version_name":"3.2.26","codes":{"armeabi-v7a":46}},
+{"version_name":"3.2.27","codes":{"armeabi-v7a":47}},
+{"version_name":"3.2.28","codes":{"armeabi-v7a":48}},
+{"version_name":"3.2.29","codes":{"armeabi-v7a":49}},
+{"version_name":"4.0","codes":{"armeabi-v7a":51}},
+{"version_name":"4.1","codes":{"armeabi-v7a":52}},
+{"version_name":"4.2","codes":{"armeabi-v7a":53}},
+{"version_name":"4.3","codes":{"armeabi-v7a":54}},
+{"version_name":"4.3.1","codes":{"armeabi-v7a":55}},
+{"version_name":"4.3.2","codes":{"armeabi-v7a":56}},
+{"version_name":"4.3.3","codes":{"armeabi-v7a":57}},
+{"version_name":"4.3.3.1","codes":{"armeabi-v7a":58}},
+{"version_name":"4.3.4","codes":{"armeabi-v7a":59}},
+{"version_name":"4.3.5","codes":{"armeabi-v7a":60}},
+{"version_name":"4.3.6","codes":{"armeabi-v7a":61}},
+{"version_name":"4.3.6.1","codes":{"armeabi-v7a":62}},
+{"version_name":"4.3.6.2","codes":{"armeabi-v7a":63}},
+{"version_name":"4.3.6.3","codes":{"armeabi-v7a":64}},
+{"version_name":"4.3.6.4","codes":{"armeabi-v7a":65}},
+{"version_name":"4.3.6.5","codes":{"armeabi-v7a":66}},
+{"version_name":"4.3.6.6","codes":{"armeabi-v7a":67}},
+{"version_name":"4.3.6.7","codes":{"armeabi-v7a":68}},
+{"version_name":"4.3.6.8","codes":{"armeabi-v7a":69}},
+{"version_name":"4.3.7.0","codes":{"armeabi-v7a":70}},
+{"version_name":"4.3.7.1","codes":{"armeabi-v7a":71}},
+{"version_name":"4.3.7.2","codes":{"armeabi-v7a":72}},
+{"version_name":"4.3.7.3","codes":{"armeabi-v7a":73}},
+{"version_name":"4.3.8.0","codes":{"armeabi-v7a":74}},
+{"version_name":"4.3.8.1","codes":{"armeabi-v7a":75}},
+{"version_name":"4.3.8.2","codes":{"armeabi-v7a":76}},
+{"version_name":"4.3.8.3","codes":{"armeabi-v7a":77}},
+{"version_name":"4.3.8.4","codes":{"armeabi-v7a":78}},
+{"version_name":"4.4.0","codes":{"armeabi-v7a":79}},
+{"version_name":"4.4.1","codes":{"armeabi-v7a":80}},
+{"version_name":"4.5.0","codes":{"armeabi-v7a":81}},
+{"version_name":"4.5.1","codes":{"armeabi-v7a":82}},
+{"version_name":"4.5.2","codes":{"armeabi-v7a":83}},
+{"version_name":"4.5.3","codes":{"armeabi-v7a":84}},
+{"version_name":"4.6.0","codes":{"armeabi-v7a":85}},
+{"version_name":"4.6.1","codes":{"armeabi-v7a":86}},
+{"version_name":"4.6.2","codes":{"armeabi-v7a":87}},
+{"version_name":"4.6.3","codes":{"armeabi-v7a":88}},
+{"version_name":"4.6.4","codes":{"armeabi-v7a":89}},
+{"version_name":"4.6.4i","codes":{"armeabi-v7a":90}},
+{"version_name":"5.0.0","codes":{"armeabi-v7a":91}},
+{"version_name":"5.1.0","codes":{"armeabi-v7a":92}},
+{"version_name":"5.1.1","codes":{"armeabi-v7a":93}},
+{"version_name":"5.2.0","codes":{"armeabi-v7a":94}},
+{"version_name":"5.3.0","codes":{"armeabi-v7a":95}},
+{"version_name":"5.4.0","codes":{"armeabi-v7a":98}},
+{"version_name":"5.4.1","codes":{"armeabi-v7a":99}},
+{"version_name":"5.4.2","codes":{"armeabi-v7a":100}},
+{"version_name":"5.4.3","codes":{"armeabi-v7a":101}},
+{"version_name":"5.4.4","codes":{"armeabi-v7a":102}},
+{"version_name":"5.4.5","codes":{"armeabi-v7a":103}},
+{"version_name":"5.4.6","codes":{"armeabi-v7a":104}},
+{"version_name":"5.4.7","codes":{"armeabi-v7a":105}},
+{"version_name":"5.4.8","codes":{"armeabi-v7a":106}},
+{"version_name":"5.4.9","codes":{"armeabi-v7a":107}},
+{"version_name":"5.4.10","codes":{"armeabi-v7a":"108"}},
+{"version_name":"5.4.11","codes":{"armeabi-v7a":109}},
+{"version_name":"5.4.12","codes":{"armeabi-v7a":110}},
+{"version_name":"5.4.13","codes":{"armeabi-v7a":111}},
+{"version_name":"5.4.14","codes":{"armeabi-v7a":112}},
+{"version_name":"5.4.15","codes":{"armeabi-v7a":113}},
+{"version_name":"5.4.16","codes":{"armeabi-v7a":114}},
+{"version_name":"5.4.17","codes":{"armeabi-v7a":115}},
+{"version_name":"5.4.18","codes":{"armeabi-v7a":116}},
+{"version_name":"5.4.19","codes":{"armeabi-v7a":117}},
+{"version_name":"5.4.20","codes":{"armeabi-v7a":118}},
+{"version_name":"5.4.21","codes":{"armeabi-v7a":119}},
+{"version_name":"5.4.22","codes":{"armeabi-v7a":120}},
+{"version_name":"5.4.23","codes":{"armeabi-v7a":121}},
+{"version_name":"5.4.24","codes":{"armeabi-v7a":122}},
+{"version_name":"5.4.25","codes":{"armeabi-v7a":123}},
+{"version_name":"5.4.26","codes":{"armeabi-v7a":124}},
+{"version_name":"5.4.27","codes":{"armeabi-v7a":125}},
+{"version_name":"5.4.28","codes":{"armeabi-v7a":126}},
+{"version_name":"5.4.21","codes":{"armeabi-v7a":127}},
+{"version_name":"5.4.30","codes":{"armeabi-v7a":128}},
+{"version_name":"5.4.31","codes":{"armeabi-v7a":129}},
+{"version_name":"5.4.32","codes":{"armeabi-v7a":131}},
+{"version_name":"5.4.33","codes":{"armeabi-v7a":132}},
+{"version_name":"5.4.34","codes":{"armeabi-v7a":133}},
+{"version_name":"5.4.35","codes":{"armeabi-v7a":134}},
+{"version_name":"5.4.36","codes":{"armeabi-v7a":135}},
+{"version_name":"5.4.37","codes":{"armeabi-v7a":136}},
+{"version_name":"5.4.38","codes":{"armeabi-v7a":137}},
+{"version_name":"5.4.39","codes":{"armeabi-v7a":138}},
+{"version_name":"5.4.40","codes":{"armeabi-v7a":139}}]
