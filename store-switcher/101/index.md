@@ -4,33 +4,4 @@ embedIcon: '/store-switcher/100/upload/store-switcher_1.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
 ---
 ## StoreSwitcher
-#### Store Switcher is a collection of several marketplace button advertisements, with the ability to switch between all of them, or use no advertisement at all. This pack also has a fix for legacy bedrock versions, allowing you to use this pack on any version which has subpack support.
-### Beta Release
-#### This pack is currently in beta; some buttons may not appear correctly on the certain versions.
-### StoreSwitcher In Action
-#### While I could sit here and explain in total detail what this pack does, I figured it'd be much easier to show you instead.
-![Image](./upload/store-switcher_2.png)
-#### Disneyland
-![Image](./upload/store-switcher_3.png)
-#### Lava Block Survival
-![Image](./upload/store-switcher_4.png)
-#### Cloudtop Quest
-### Included Buttons
-#### **Buttons shown here are cropped to show the hover and default texture. Also, only the base button texture is shown, so no sprites are going to be visible from this preview.**
-![Image](./upload/store-switcher_5.png)
-![Image](./upload/store-switcher_6.png)
-![Image](./upload/store-switcher_7.png)
-![Image](./upload/store-switcher_8.png)
-![Image](./upload/store-switcher_9.png)
-![Image](./upload/store-switcher_10.png)
-![Image](./upload/store-switcher_11.png)
-![Image](./upload/store-switcher_12.png)
-![Image](./upload/store-switcher_13.png)
-![Image](./upload/store-switcher_14.png)
-![Image](./upload/store-switcher_15.png)
-![Image](./upload/store-switcher_16.png)
-
-<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1uXi98CzEofzhxVJd9aRXiULh8H-Pn4-S">StoreSwitcher.mcpack</a></div>
-<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=109PH7cAPhMJ6oEke81SNdAaQQb-kxZnQ">StoreSwitcher.zip</a></div>
-<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1AQYdCKBalrZEdRSevUeVgtSatI_JwI0x">LegacyFix.mcpack</a></div>
-<div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1Sd2lWZOyk0IbAvXHqdkif4sKEhUyUNZA">LegacyFix.zip</a></div>
+<div class="home-content-container"><a class="home-content-container" style="border-radius:8px;background: #222d;padding:8px;color:#ccc;display:inline-block;margin:4px;line-height: 24px;text-decoration: none;" href="https://drive.google.com/uc?confirm=t&amp;id=1lrhoBtsVFJQ2i-AEcnFsQ5IzL5qYKGFS"><p class="dreamsdb infotitle">StoreSwitcher.mcpack</p><p class="dreamsdb infostats" style="margin-left:8px">743 KB</p></a><a class="home-content-container" style="border-radius:8px;background: #222d;padding:8px;color:#ccc;display:inline-block;margin:4px;line-height: 24px;text-decoration: none;" href="https://drive.google.com/uc?confirm=t&amp;id=1vhwEVUISEz1qWk0jlREYQWvIl6RxErkv"><p class="dreamsdb infotitle">StoreSwitcher.zip</p><p class="dreamsdb infostats" style="margin-left:8px">743 KB</p></a><a class="home-content-container" style="border-radius:8px;background: #222d;padding:8px;color:#ccc;display:inline-block;margin:4px;line-height: 24px;text-decoration: none;" href="https://drive.google.com/uc?confirm=t&amp;id=1IVAPW5JtmIzLRDDRzIXva7WnbFCwu19O"><p class="dreamsdb infotitle">LegacyFix.mcpack</p><p class="dreamsdb infostats" style="margin-left:8px">60 KB</p></a><a class="home-content-container" style="border-radius:8px;background: #222d;padding:8px;color:#ccc;display:inline-block;margin:4px;line-height: 24px;text-decoration: none;" href="https://drive.google.com/uc?confirm=t&amp;id=1RruNNL2r-GCpbNYQYxuOeCp_Y3oigLnn"><p class="dreamsdb infotitle">LegacyFix.zip</p><p class="dreamsdb infostats" style="margin-left:8px">60 KB</p></a></div><div class="changelog-container"><h4 style="margin-bottom: 4px;">Panorama Switcher is a resource pack made for those interested in revisiting the older panoramas of Minecraft Bedrock, and even of other versions of Minecraft. I’ve done my absolute best to gather every panorama which was available in Bedrock, and now I’ve decided to share it with all of you!</h4><i class="material-icons" style="margin-top: 8px;">visibility</i><h3 id="extra-functions" style="margin-top: 8px;">StoreSwitcher In Action</h3><img src="./upload/store-switcher_1.png" style="display: block;width: auto;max-width: 100%;margin-top: 4px;"><h4 style="margin-bottom: 4px;">Disneyland Button</h4><img src="./upload/store-switcher_2.png" style="display: block;width: auto;max-width: 100%;margin-top: 4px;"><h4 style="margin-bottom: 4px;">Lava Block Survival</h4><img src="./upload/store-switcher_3.png" style="display: block;width: auto;max-width: 100%;margin-top: 4px;"><h4 style="margin-bottom: 4px;">Cloudtop Quest</h4><i class="material-icons" style="margin-top: 8px;">tune</i><h3 id="included-buttons" style="margin-top: 8px;">Included Buttons</h3><img src="../100/upload/store-switcher_2.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_3.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_4.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_5.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_6.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_7.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_8.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_9.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_10.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_11.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_12.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"><img src="../100/upload/store-switcher_13.png" style="max-height: 192px;display: block;width: auto;max-width: 100%;margin-top: 4px;"></div>
