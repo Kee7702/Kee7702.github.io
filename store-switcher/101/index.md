@@ -34,6 +34,3 @@ headInsert: '<meta name="twitter:card" content="summary_large_image">'
 <div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=109PH7cAPhMJ6oEke81SNdAaQQb-kxZnQ">StoreSwitcher.zip</a></div>
 <div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1AQYdCKBalrZEdRSevUeVgtSatI_JwI0x">LegacyFix.mcpack</a></div>
 <div class="filedownload-container"><i class="material-icons">insert_drive_file</i><a href="https://drive.google.com/uc?confirm=t&id=1Sd2lWZOyk0IbAvXHqdkif4sKEhUyUNZA">LegacyFix.zip</a></div>
-
-<element><div class="navigation"><a></a><a href="/"><i class="material-icons navigate">first_page</i></a><a href="../"><i class="material-icons navigate">arrow_back</i></a></div></element>
-<head><style>blockquote>h5 { line-height:0!important } </style></head>
