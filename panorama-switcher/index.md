@@ -1,6 +1,6 @@
 ---
 navAdd: '<a class="material-icons" href="https://mcpedl.com/panorama-switcher-pack-1/">link</a>'
-embedIcon: '/panorama-switcher/104/upload/panorama-switcher_1.png'
+embedIcon: '/panorama-switcher/latest/upload/panorama-switcher_1.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
 ---
 ## PanoramaSwitcher
