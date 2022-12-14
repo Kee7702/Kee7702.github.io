@@ -3,7 +3,7 @@ embedIcon: '/mp3-player/upload/mp3-player_0.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
 ---
 ## MP3 Player
-![MP3 Player Logo](https://projects.kee7702.tk/mp3-player/upload/mp3-player_0.png)
+![MP3 Player Logo](./upload/mp3-player_0.png)
 #### MP3 Player is a project in LittleBigPlanet, meant to be a mass collection of music, conveniently sorted into playlists, browsable in any level which this is a part of, with several features currently in development.
 ## Main Features
 <div class="filedownload-container"><h3 style="font-size: 16px;margin-block: 0;">Wireless API</h3><h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">A full api to insert additional playlists into the player</h4></div><div class="filedownload-container"><h3 style="font-size: 16px;margin-block: 0;">Interactive Selection</h3><h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">Play IntMusic with more control</h4></div>
