@@ -1,6 +1,7 @@
 ---
 embedIcon: '/mp3-player/upload/mp3-player_0.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
+description: MP3 Player is a project in LittleBigPlanet, meant to be a mass collection of music, conveniently sorted into playlists, browsable in any level which this is a part of, with several features currently in development.
 ---
 ## MP3 Player
 ![MP3 Player Logo](./upload/mp3-player_0.png)
