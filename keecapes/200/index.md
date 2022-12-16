@@ -1,5 +1,5 @@
 ---
-embedIcon: '/KeeCapes/200/upload/keecapes_1.png'
+embedIcon: '/keecapes/200/upload/keecapes_0.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
 ---
 ## KeeCapes
