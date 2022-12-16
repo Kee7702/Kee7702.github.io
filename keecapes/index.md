@@ -1,5 +1,5 @@
 ---
-embedIcon: '/KeeCapes/latest/upload/keecapes_0.png'
+embedIcon: '/keecapes/latest/upload/keecapes_0.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
 description: KeeCapes is a skin pack made for Minecraft with the intention to give players a library of capes that won't be too large in size. KeeCapes only includes official capes and very few unofficial capes, meaning all included capes are high in quality.
 ---
