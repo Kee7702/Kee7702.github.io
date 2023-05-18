@@ -1,3 +1,34 @@
+# Site Title
 title: Kee Projects
+
+# Description (used in embeds)
 description: Play, Create, Share. Kee Projects is comprised of handcrafted creations, publicly shared with everyone.
+
+# This config value loads Keeterial into your Github Pages 
 remote_theme: Kee7702/Keeterial
+
+# Global Navigation (in HTMl) / (nav)
+# Presets:
+# - Image: <a class="material-icons" href="{ btn link }"><img src="{ img link }"></a>
+# - Icon: <a class="material-icons" href="{ btn link }">{ fonts.google.com Icon }</a>
+nav: <a class="material-icons" href="/">home</a><a class="material-icons" href="/versions" style="margin-right:0">inventory_2</a>
+
+# Default Embed Color (hex) / (theme_color)
+theme_color: '#111111'
+
+# Global Footer / (footer)
+footer: Kee Projects is a website to showcase and distribute projects made by Kee7702, maintained since Oct 2021
+
+# Show build info below the included footer
+build_info: true
+
+# Note: Keeterial is currently under development. Expect more config options soon as well as changed usages
+# If you need help with any of the values above, feel free to contact me on Discord
+
+# Page Variables (these can be changed per-page)
+# Some variables may change usage during development
+# nav - Additional navigation relating to the current page
+# theme_color - A different embed color for a specific page
+# image - A separate image for embeds relating to a page
+# headInsert - HTML to insert into <head> on a page
+# description - Change the description for a page
