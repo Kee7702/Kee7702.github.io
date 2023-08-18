@@ -7,6 +7,9 @@ color: '#44115f'
 ## MP3 Player
 ![MP3 Player Logo](./upload/mp3-player_0.png)
 #### MP3 Player is a project in LittleBigPlanet, meant to be a mass collection of music, conveniently sorted into playlists, browsable in any level which this is a part of, with several features currently in development.
+## Upcoming Update (2.1.0)
+#### This is going to be quite a major update when it's finished. I've been very slow with developing this update, but I'll at least give a quick list of all of the changes that are currently planned to become a part of the next big release!
+<div class="filedownload-container"><h3 style="font-size: 16px;margin-block: 0;">ExtPlay</h3><h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">A completely revamped wireless API, which will launch with complete feature parity with Wireless API as well as implement a few additional wireless pipelines which have remained unusable. This new API will also welcome ExtCreateKit, a replacement for DevKits.</h4></div><div class="filedownload-container"><h3 style="font-size: 16px;margin-block: 0;">API Minimizing</h3><h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">Throughout development, there have been several unfinished protocols established. A major goal of this update is to remove unused parts of MP3 Player.</h4></div>
 ## Main Features
 <div class="filedownload-container"><h3 style="font-size: 16px;margin-block: 0;">Wireless API</h3><h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">A full api to insert additional playlists into the player</h4></div><div class="filedownload-container"><h3 style="font-size: 16px;margin-block: 0;">Interactive Selection</h3><h4 style="font-size: 14px;margin-block: 0;font-weight: 100;">Play IntMusic with more control</h4></div>
 ## Features Pending Development
