@@ -1,4 +1,6 @@
 - link: '/'
   icon: ''
+- link: '../'
+  icon: ''
 - link: '/versions'
   icon: ''
