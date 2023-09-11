@@ -9,7 +9,28 @@ items:
   link: './200'
   image: './200/upload/keecapes_1.png'
   alt: 'KeeCapes 2.00'
-  
+uicontent:
+- type: selectgrid
+  items:
+  - name: 2.00
+    link: ./200
+    image: ./200/upload/keecapes_1.png
+    alt: KeeCapes 2.00
+- type: description
+  title:
+  - icon: build
+    text: test description title
+  collapsible: true
+  items:
+  - type: test
+    text: hello
+  - type: description
+    title:
+    - icon: build
+      text: test description title
+    collapsible: true
+    items:
+    - type: test
+      text: hello again
 ---
 ## KeeCapes
-<div class="home-content-container"><a class="home-content-image" href="./200"><img src="./200/upload/keecapes_1.png" onerror="this.src='/assets/images/featuredimage.png'" alt="Kee Capes 2.00 Update"><p>2.00</p></a></div>
