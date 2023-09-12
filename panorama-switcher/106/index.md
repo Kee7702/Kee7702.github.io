@@ -10,7 +10,7 @@ navigation:
   newtab: true
 posts:
 - title: 'Unreleased Version'
-  details: 'This version of PanoramaSwitcher is not currently available. You can see what's being done with PanoramaSwitcher, but won't be able to download it until it's released.'
+  details: This version of PanoramaSwitcher is not currently available. You can see what's being done with PanoramaSwitcher, but won't be able to download it until it's released.
   icon: ''
 ---
 ## PanoramaSwitcher
