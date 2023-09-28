@@ -1,1 +1,71 @@
-[{"strand":1,"passphrase":"1852d8e04702ddf3","updates":["1.01"]},{"strand":3,"passphrase":"9d9cf411e09160af","updates":["1.01","1.02","1.03"]}]
+{
+  "game": {
+    "title": "Minecraft: PlayStation®3 Edition",
+    "publisher": "UP4433",
+    "titleId": "NPUB31419",
+    "contentId": "MINECRAFTPS30295"
+  },
+  "tags": {
+    "95": {
+      "id": "dbaf89aa2688b83d",
+      "packages": [
+        {
+          "name": [
+            "1.84",
+            "A0184-V0100-PE"
+          ],
+          "increment_version": "1.83",
+          "size": 39058992
+        },
+        {
+          "name": [
+            "1.83",
+            "A0183-V0100-PE"
+          ],
+          "increment_version": "1.82",
+          "size": 39068624
+        },
+        {
+          "name": [
+            "1.82",
+            "A0182-V0100-PE"
+          ],
+          "increment_version": "1.81",
+          "size": 143172912
+        },
+        {
+          "name": [
+            "1.81",
+            "A0181-V0100-PE"
+          ],
+          "increment_version": "1.80",
+          "size": 35442944
+        },
+        {
+          "name": [
+            "1.80",
+            "A0180-V0100-PE"
+          ],
+          "increment_version": "1.79",
+          "size": 35443248
+        },
+        {
+          "name": [
+            "1.79",
+            "A0179-V0100-PE"
+          ],
+          "increment_version": "1.78",
+          "size": 46972064
+        },
+        {
+          "name": [
+            "1.78",
+            "A0178-V0100-PE"
+          ],
+          "increment_version": "1.00",
+          "size": 1222810976
+        }
+      ]
+    }
+  }
+}
