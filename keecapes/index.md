@@ -7,14 +7,14 @@ color: '#68aa62'
 items:
 - name: '2.00'
   link: './200'
-  image: './200/upload/keecapes_1.png'
+  image: 'https://static.kee7702.tk/keecapes/200/keecapes_1.png'
   alt: 'KeeCapes 2.00'
 uicontent:
 - type: selectgrid
   items:
   - name: 2.00
     link: ./200
-    image: ./200/upload/keecapes_1.png
+    image: https://static.kee7702.tk/keecapes/200/keecapes_1.png
     alt: KeeCapes 2.00
 - type: description
   title:
