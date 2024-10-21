@@ -1,5 +1,4 @@
 ## Index
-<h3 style="margin:0">Unmaintained projects may be removed</h3>
 <div class="home-content-container">
   <a class="home-content-image" href="./panorama-switcher">
     <img src="https://static.kee7702.tk/panorama-switcher/panorama-switcher_1.png" onerror="this.src='/assets/images/featuredimage.png';this.nextSibling.textContent='PanoramaSwitcher';this.nextSibling.style=''" alt="Panorama Switcher">
