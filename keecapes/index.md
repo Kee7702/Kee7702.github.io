@@ -9,28 +9,5 @@ items:
   link: './200'
   image: 'https://static.kee7702.tk/keecapes/200/keecapes_1.png'
   alt: 'KeeCapes 2.00'
-uicontent:
-- type: selectgrid
-  items:
-  - name: 2.00
-    link: ./200
-    image: https://static.kee7702.tk/keecapes/200/keecapes_1.png
-    alt: KeeCapes 2.00
-- type: description
-  title:
-  - icon: build
-    text: test description title
-  collapsible: true
-  items:
-  - type: test
-    text: hello
-  - type: description
-    title:
-    - icon: build
-      text: test description title
-    collapsible: true
-    items:
-    - type: test
-      text: hello again
 ---
 ## KeeCapes
