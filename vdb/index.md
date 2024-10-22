@@ -12,4 +12,4 @@ navigation:
   newtab: true
 ---
 ## Version List Viewer
-Version List Viewer is an HTML-based website to view and visualize a JSON version list. Initially developed to visualize the Minecraft version list provided by MCMrARM. 
+<p style="margin:0">Version List Viewer is an HTML-based website to view and visualize a JSON version list. Initially developed to visualize the Minecraft version list provided by MCMrARM.</p>
