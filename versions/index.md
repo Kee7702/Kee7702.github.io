@@ -1,6 +1,6 @@
 ---
 embedIcon: '/versions/upload/update.png'
-headInsert: <meta name="twitter:card" content="summary_large_image"><meta http-equiv="Refresh" content="0; url='https://mcv.kee7702.tk/'" />
+headInsert: <meta name="twitter:card" content="summary_large_image"><meta http-equiv="Refresh" content="0; url='/vdb'" />
 color: '#58375e'
 ---
 ## Version Lists
