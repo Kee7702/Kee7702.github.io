@@ -1,5 +1,5 @@
 ---
-image: 'https://static.kee7702.tk/panorama-switcher/106/panorama-switcher_1.png'
+image: 'https://static.kee7702.tk/main/panorama-switcher/106/panorama-switcher_1.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
 description: Panorama Switcher is a resource pack made for those interested in revisiting the older panoramas of Minecraft, I've gathered most of the panoramas ever used in Minecraft, and now it's time to share those panoramas with you!
 theme_color: '#59686b'
@@ -14,4 +14,4 @@ posts:
   icon: ''
 ---
 ## PanoramaSwitcher
-<div style="text-align:center"><p style="position:absolute;margin:-10px;border-radius:0 0 10px 0;padding: 10px;background:#333c;line-height:16px">PanoramaSwitcher Version 1.06</p><img src="https://static.kee7702.tk/panorama-switcher/106/panorama-switcher_1.png"></div>
+<div style="text-align:center"><p style="position:absolute;margin:-10px;border-radius:0 0 10px 0;padding: 10px;background:#333c;line-height:16px">PanoramaSwitcher Version 1.06</p><img src="https://static.kee7702.tk/main/panorama-switcher/106/panorama-switcher_1.png"></div>

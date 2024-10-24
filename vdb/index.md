@@ -1,5 +1,5 @@
 ---
-embedIcon: 'https://static.kee7702.tk/vdb/vdb_1.png'
+embedIcon: 'https://static.kee7702.tk/main/vdb/vdb_1.png'
 headInsert: '<meta name="twitter:card" content="summary_large_image">'
 description: Version List Viewer is an HTML-based website to view and visualize a JSON version list. Initially developed to visualize the Minecraft version list provided by MCMrARM.
 color: '#06060f'
