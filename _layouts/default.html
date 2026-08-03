@@ -1,0 +1,28 @@
+<html lang="en-US" class="theme-dark">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/main.css">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=12,minimum-scale=.25,user-scalable=yes" name="viewport">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <header><a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="44" viewBox="0 0 408 572">
+  <path d="M 0.00,0.00            C 0.00,0.00 408.00,0.00 408.00,0.00              408.00,0.00 408.00,122.00 408.00,122.00              408.00,122.00 0.00,122.00 0.00,122.00              0.00,122.00 0.00,0.00 0.00,0.00 Z            M 0.00,164.00            C 0.00,164.00 122.00,164.00 122.00,164.00              122.00,164.00 122.00,572.00 122.00,572.00              122.00,572.00 0.00,572.00 0.00,572.00              0.00,572.00 0.00,164.00 0.00,164.00 Z            M 164.00,164.00            C 164.00,164.00 286.00,164.00 286.00,164.00              286.00,164.00 286.00,284.00 286.00,284.00              286.00,284.00 408.00,284.00 408.00,284.00              408.00,284.00 408.00,572.00 408.00,572.00              408.00,572.00 286.00,572.00 286.00,572.00              286.00,572.00 286.00,356.00 286.00,356.00              286.00,356.00 164.00,356.00 164.00,356.00              164.00,356.00 164.00,164.00 164.00,164.00 Z"></path>
+</svg></a></header>
+        <div id="nav-container">
+          <div id="nav-primary">{% for link in site.navitems.primary %}<a class="nav-button"href="{{ link.url }}">{{ link.icon }}</a>{% endfor %}{% for link in page.links %}<a class="nav-button"href="{{ link.url }}">{{ link.icon }}</a>{% endfor %}</div>
+          <div id="nav-secondary">{% for link in site.navitems.secondary %}<a class="nav-button"href="{{ link.url }}">{{ link.icon }}</a>{% endfor %}</div>
+        </div>
+      </div>
+      <section>
+        <div id="sAPIcontainer">
+          {{ content }}
+        </div>
+        <a style="display:block;padding:12px;">Glad you're here. Just to let you know, this is a beta for an upcoming overhaul to my website. Here's a few things to note:<br><br>• This is a build from {{ site.time | date: "%B %d, %Y" }}.<br>• Certain elements don't scale correctly for vertical displays.<br>• Some versions of some projects are missing.<br>• All on-site downloads lead to a 404 page.<br>• Embeds for services like Discord don't exist yet.<br><br>Simply put, things are unfinished. Don't have high expectations, just let me know if you'd recommend any specific changes and I'll see what I can do.</a>
+      </section>
+    </div>
+  </body>
+</html>
