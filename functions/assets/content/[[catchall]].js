@@ -1,3 +1,3 @@
 export function onRequest(context) {
-	return new Response(context.params.catchall.join('/'));
+  return await env.resbin.fetch(context.request);
 }
