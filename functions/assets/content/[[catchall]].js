@@ -1,3 +1,3 @@
-export async function onRequest(context) {
-  return await context.env.resbin.fetch(context.request);
+export async function onRequestGet(context) {
+  return context.env.resbin.fetch(context.request);
 }
