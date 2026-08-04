@@ -18,10 +18,10 @@
         </div>
       </div>
       <section>
-        <div id="sAPIcontainer">
+        <div id="content-container">
           {{ content }}
         </div>
-        <a style="display:block;padding:12px;">Glad you're here. Just to let you know, this is a beta for an upcoming overhaul to my website. Here's a few things to note:<br><br>• This is a build from {{ site.time | date: "%B %d, %Y" }}.<br>• Certain elements don't scale correctly for vertical displays.<br>• Some versions of some projects are missing.<br>• All on-site downloads lead to a 404 page.<br>• Embeds for services like Discord don't exist yet.<br><br>Simply put, things are unfinished. Don't have high expectations, just let me know if you'd recommend any specific changes and I'll see what I can do.</a>
+        <footer><a>Projects by </a><a href="//github.com/Kee7702">Kee7702</a><a> © {{ "2021-10-25T17:21:26.000Z" | date: "%Y" }} - {{ site.time | date: "%Y" }}<br>Pages built on {{ site.time | date_to_long_string: "ordinal", "US" }}.<br><br>PREVIEW VERSION:<br>• Large files may be inaccessible.<br>• Platforms like Discord won't embed links.<br>• Experimental designs may be tested.</a></footer>
       </section>
     </div>
   </body>

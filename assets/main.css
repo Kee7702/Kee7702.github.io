@@ -111,10 +111,13 @@ header {
 .searchbar {
   padding:10px
 }
-#sAPIcontainer {
+#content-container {
   padding:10px;
-  min-height:calc(100% - 20px);
   image-rendering:smooth
+}
+footer {
+  padding: 12px;
+  background: var(--background-quartary);
 }
 .nav-button.nav-active,
 .nav-button:active,
@@ -206,13 +209,11 @@ section {
   width:100%;
   overflow-y:auto;
   overflow-x:hidden;
-  scrollbar-width:auto;
+  display:flex;
   scrollbar-color:var(--background-secondary) var(--highlight-secondary);
-  position:absolute;
-}
-section:nth-child(2) {
-  max-height:calc(100% - 64px);
-  top:64px;
+  scrollbar-width:thin;
+  flex-flow:column;
+  justify-content:space-between
 }
 .nav-button {
   border-radius:16px;
@@ -730,6 +731,9 @@ details:not(.min),.details:not(.min) {
   border-radius: 10px;
   overflow: hidden
 }
+details:last-child,.details:last-child {
+  margin: 0
+}
 details .details:not(.min),
 details details:not(.min),
 .details details:not(.min),
@@ -754,7 +758,7 @@ h4, h5 {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .images:not(:last-child) {
   margin: 0 0 8px

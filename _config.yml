@@ -12,9 +12,9 @@ navitems:
   primary:
     - url: '../'
       icon: ''
-  secondary:
-    - url: '//github.com/Kee7702/staging.kee7702.tk'
-      icon: '<img style="height:24px" src="/assets/github.svg">'
+#  secondary:
+#    - url: '//github.com/Kee7702/staging.kee7702.tk'
+#      icon: '<img style="height:24px" src="/assets/github.svg">'
 
 plugins:
   - jekyll-default-layout
