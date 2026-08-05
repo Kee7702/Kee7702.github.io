@@ -2,7 +2,17 @@
   <head>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta data-n-head="ssr" data-hid="og:image" name="og:image" content="{{ page.image | default:"/assets/header.png" }}">
+    <meta name="theme-color" content="{{ page.theme_color | default: site.theme_color }}">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="{{ page.card_type | default: "summary" }}">{% if page.title %} 
+    <meta property="twitter:title" content="{{ page.title }}">{% endif %}
     <link rel="stylesheet" href="/assets/main.css">
     <meta content="width=device-width,initial-scale=1,maximum-scale=12,minimum-scale=.25,user-scalable=yes" name="viewport">
   </head>

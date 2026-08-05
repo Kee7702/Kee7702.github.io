@@ -989,7 +989,7 @@ pending:
   {% if page.pending %}<details style="background:var(--background-quartary);padding:20px;margin:-10px -10px 10px;border-radius:0 10px"><summary style=text-align:left;background:0;padding:0>Coming Soon</summary>
   {% for import in page.pending %}<div class="storage-container"{% if import.sound %}sound="{{ import.sound }}"{% elsif import.path %}path="{{ import.path }}"{% endif %}>
     <div class="file-wrapper">
-      {% if import.sound %}<div class="storage-fileprev">
+      {% if import.sound or import.path %}<div class="storage-fileprev">
         <a onclick="playAudio(this)"class="storage-playaudio"></a>
       </div>{% endif %}
       <div class="storage-details">
@@ -1003,7 +1003,7 @@ pending:
   </div>{% endfor %}</details>{% endif %}
   {% if page.imports %}{% for import in page.imports %}<div class="storage-container large"id="{{ import.id }}"{% if import.sound %}sound="{{ import.sound }}"{% elsif import.path %}path="{{ import.path }}"{% endif %}style="--sturl:url(&quot;https://cdn-prod.puprod.indreams.me/{{ import.image | default: "52b7d5cfd294eb16d10ae91e674640fd" }}_1&quot;){% if import.color %};--background-secondary:{{ import.color }}{% endif %}">
     <div class="file-wrapper">
-      {% if import.sound %}<div class="storage-fileprev">
+      {% if import.sound or import.path %}<div class="storage-fileprev">
         <a onclick="playAudio(this)"class="storage-playaudio"></a>
       </div>{% endif %}
       <div class="storage-details">
@@ -1026,7 +1026,7 @@ pending:
   });
 },{ rootMargin: "256px" });
 document.querySelectorAll('[style*=--sturl]').forEach(image => observer.observe(image));function playAudio(button){
-  let src = (button.parentElement.parentElement.parentElement.getAttribute('sound')&&`{{ site.cdnroot }}dreamsdb/${button.parentElement.parentElement.parentElement.getAttribute('sound')}`)||(button.parentElement.parentElement.parentElement.getAttribute('path')&&`{{ site.cdnroot }}dreamsdb/legacy/${button.parentElement.parentElement.parentElement.getAttribute('path')}`)
+  let src = (button.parentElement.parentElement.parentElement.getAttribute('sound')&&`{{ site.cdnroot }}dreamsdb/${button.parentElement.parentElement.parentElement.getAttribute('sound')}`)||(button.parentElement.parentElement.parentElement.getAttribute('path')&&`https://dreamsdb.static.kee7702.tk/${button.parentElement.parentElement.parentElement.getAttribute('path')}`)
   if(window.player&&window.player.getAttribute('src')==src) {
     if(window.player.paused) {
       button.classList.replace('paused','playing')

@@ -1,10 +1,11 @@
 # Site Title
 title: Kee Projects
+name: Projects by Kee7702
 
 # Embed metadata (i.e. Discord, Twitter)
 description: Play, Create, Share. Kee Projects is comprised of handcrafted creations, publicly shared with everyone.
 
-# Root for content downloads (local mode = /assets/content)
+# Root for content downloads
 cdnroot: /assets/content/
 
 # Site-wide navigation (or per-page: page.links => site.navitems.primary)
