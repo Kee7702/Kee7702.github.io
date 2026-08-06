@@ -3,7 +3,8 @@ title: Kee Projects
 name: Projects by Kee7702
 
 # Embed metadata (i.e. Discord, Twitter)
-description: Play, Create, Share. Kee Projects is comprised of handcrafted creations, publicly shared with everyone.
+description: "Catch up on the latest from me or simply take a look at some of what I've made over the years."
+theme_color: '#2e2e37'
 
 # Root for content downloads
 cdnroot: /assets/content/
