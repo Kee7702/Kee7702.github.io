@@ -11,12 +11,15 @@ cdnroot: /assets/content/
 
 # Site-wide navigation (or per-page: page.links => site.navitems.primary)
 navitems:
-  primary:
-    - url: '../'
-      icon: ''
+#  primary:
+#    - url: '../'
+#      icon: ''
 #  secondary:
 #    - url: '//github.com/Kee7702/staging.kee7702.tk'
 #      icon: '<img style="height:24px" src="/assets/github.svg">'
+
+redirect_from:
+  json: false
 
 plugins:
   - jekyll-default-layout
