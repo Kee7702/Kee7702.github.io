@@ -317,6 +317,9 @@ form.manage-command input[type] {
 .storage-playaudio.buffering:before {
   content:'';
 }
+.storage-playaudio.failed:before {
+  content:'';
+}
 .storage-container {
   overflow:hidden;
   vertical-align:middle;
