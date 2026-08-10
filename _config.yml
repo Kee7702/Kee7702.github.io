@@ -14,9 +14,9 @@ navitems:
 #  primary:
 #    - url: '../'
 #      icon: ''
-#  secondary:
-#    - url: '//github.com/Kee7702/staging.kee7702.tk'
-#      icon: '<img style="height:24px" src="/assets/github.svg">'
+  secondary:
+    - url: '//github.com/Kee7702/Kee7702.gihub.io'
+      icon: '<img style="height:24px" src="/assets/github.svg">'
 
 redirect_from:
   json: false
