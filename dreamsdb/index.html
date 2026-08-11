@@ -1049,10 +1049,10 @@ document.querySelectorAll('[style*=--sturl]').forEach(image => observer.observe(
   window.player.play()
   if ("mediaSession" in navigator) {
     let dreamshash = 'f70192bfddd354bdb157a516bbf312c6'
-    if(button.parentElement.parentElement.parentElement.classList.contains('bg-img')) dreamshash = button.parentElement.parentElement.parentElement.style.getPropertyValue('--sturl').match('[a-z0-9]{32}')[0]
+    if(button.parentElement.parentElement.parentElement.style.getPropertyValue('--sturl')) dreamshash = button.parentElement.parentElement.parentElement.style.getPropertyValue('--sturl').match('[a-z0-9]{32}')[0]
     navigator.mediaSession.metadata = new MediaMetadata({
-      title: button.parentElement.nextElementSibling.querySelector('.storage-filename').innerText,
-      artist: `For ${button.parentElement.nextElementSibling.querySelector('.storage-filepath').innerText.split('or ')[1]}`,
+      title: button.parentElement.nextElementSibling.querySelector('.storage-filename').innerHTML,
+      artist: `For ${button.parentElement.nextElementSibling.querySelector('.storage-filepath').innerHTML.split('or ')[1]}`,
       artwork: [{
         src: `https://cdn-prod.puprod.indreams.me/${dreamshash}_8`,
         sizes: "1024x1024",
@@ -1069,6 +1069,18 @@ document.querySelectorAll('[style*=--sturl]').forEach(image => observer.observe(
         type: "image/jpeg"
       }]
     });
+    let trackslist = Array.from(document.querySelectorAll('[onclick="playAudio(this)"]'))
+    let currenttrack = trackslist.findIndex(a => a==button)
+    if(trackslist.length-1>currenttrack) {
+      navigator.mediaSession.setActionHandler("nexttrack", () => {
+        trackslist[currenttrack+1].click()
+      });
+    } else navigator.mediaSession.setActionHandler("nexttrack", null)
+    if(0<currenttrack) {
+      navigator.mediaSession.setActionHandler("previoustrack", () => {
+        trackslist[currenttrack-1].click()
+      });
+    } else navigator.mediaSession.setActionHandler("previoustrack", null)    
   }
   window.player.onpause = function(a) {
     if(a.target.getAttribute('src')==src) button.classList.replace('playing','paused')
