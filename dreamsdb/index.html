@@ -1052,7 +1052,7 @@ document.querySelectorAll('[style*=--sturl]').forEach(image => observer.observe(
     if(button.parentElement.parentElement.parentElement.style.getPropertyValue('--sturl')) dreamshash = button.parentElement.parentElement.parentElement.style.getPropertyValue('--sturl').match('[a-z0-9]{32}')[0]
     navigator.mediaSession.metadata = new MediaMetadata({
       title: button.parentElement.nextElementSibling.querySelector('.storage-filename').textContent,
-      artist: `For ${button.parentElement.nextElementSibling.querySelector('.storage-filepath').textContent.split('or ')[1]}`,
+      artist: `Requested by ${button.parentElement.nextElementSibling.querySelector('.storage-filepath').textContent.split('or ')[1]}`,
       artwork: [{
         src: `https://cdn-prod.puprod.indreams.me/${dreamshash}_8`,
         sizes: "1024x1024",
