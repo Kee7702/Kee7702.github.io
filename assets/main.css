@@ -766,14 +766,14 @@ h4, h5 {
 .images:not(:last-child) {
   margin: 0 0 8px
 }
-.images img {
+.images>* {
   border-radius: 10px;
   max-height: 300px;
   max-width: 100%;
   display: inline-flex;
   scroll-snap-align: center;
 }
-.images img:not(:last-child),
+.images>*:not(:last-child),
 .project-download a:not(:last-child) {
   margin: 0 8px 0 0;
   display: inline-flex;
