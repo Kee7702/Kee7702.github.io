@@ -6,36 +6,66 @@ layout: default
     <symbol id="keeterial-search" viewBox="2 2 20 20"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></symbol>
   </svg>
 </div>
-<style>#psns-container{display:flex;flex-wrap:wrap;justify-content:center}.psns-item{display:flex;background:var(--background-tertiary);width:376px;margin:4px;overflow:hidden;border-top:2px solid rgba(255,255,255,.08)}.psns-item img{width:88px;height:88px}.psns-title{margin:8px;overflow:hidden;text-overflow:ellipsis}.psns-details,.psns-links{display:flex}.psns-details a:not(:first-child),.psns-links a:not(:first-child){margin-left:8px}.psns-product>.psns-item{width:100%;background:none;border-top:none}.psns-product .images>*{border-radius:0}.psns-desc{margin:4px}</style>
-<form style="display:flex;margin:-10px -10px 10px;background:var(--background-tertiary);border-top:2px solid rgba(255,255,255,.08)"><img loading="lazy"src="https://store.playstation.com/img/store-logo.svg"style="width:146px;height:32px;padding:7px"><input type="text"required=""name="q"minlength="3"maxlength="255"placeholder="Search Query"style="margin:0;padding:15px;background:none;border-radius:0;border-left:2px solid rgba(255,255,255,.08)"><input name="l" type="hidden" value="en_US"><button type="submit"style="margin:0;padding:11px;background:none"><svg xmlns="http://www.w3.org/2000/svg"height="24"width="24"><use xlink:href="#keeterial-search"></use></svg></button></form>
-<script>Array.from(document.getElementsByTagName('form')[0].elements).filter(a => a.type != 'submit').map(a => {
-  if (new URLSearchParams(window.location.search).get(a.name)) {
-    a.value = new URLSearchParams(window.location.search).get(a.name)
+<style>#psns-container{display:flex;flex-wrap:wrap;justify-content:center}.psns-item{display:flex;background:var(--background-tertiary);width:376px;margin:4px;overflow:hidden;border-top:2px solid rgba(255,255,255,.08)}.psns-item img{width:88px;height:88px;background:url(https://store.playstation.com/img/default/product-image-game.svg) center / cover}.psns-title{margin:8px;overflow:hidden;text-overflow:ellipsis;width:272px}.psns-details,.psns-links{display:flex}.psns-details a:not(:first-child),.psns-links a:not(:first-child){margin-left:8px}.psns-product>.psns-item{width:100%;background:none;border-top:none}.psns-product .images>*{border-radius:0}.psns-desc{margin:4px}</style>
+<form style="display:flex;margin:-10px -10px 10px;background:var(--background-tertiary);border-top:2px solid rgba(255,255,255,.08)"><img loading="lazy"src="https://store.playstation.com/img/store-logo.svg"style="width:146px;height:32px;padding:7px"><input type="text"required=""name="q"minlength="3"maxlength="255"placeholder="Search for games..."style="margin:0;padding:15px;background:none;border-radius:0;border-left:2px solid rgba(255,255,255,.08)"><input name="l" type="hidden" value="en_US"><button type="submit"style="margin:0;padding:11px;background:none"><svg xmlns="http://www.w3.org/2000/svg"height="24"width="24"><use xlink:href="#keeterial-search"></use></svg></button></form>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  document.getElementById('content-container').insertAdjacentHTML('beforeend', '<div id="loading-content"style="text-align:center"><img src="/psn-store/psn-store_1.gif"></div>')
+  let env = {
+    product: false,
+    query: false,
+    length: 150,
+    search: new URLSearchParams(window.location.search),
+    url: 'https://store.playstation.com/store/api/chihiro/00_09_000/',
+    html: [ '', '<div></div>' ]
   }
-});
-if (new URLSearchParams(window.location.search).get('product') != null && new URLSearchParams(window.location.search).get('product').length==36) {
-  document.addEventListener("DOMContentLoaded", async () => {
-    document.getElementById('content-container').insertAdjacentHTML('beforeend', '<div id="loading-content"style="text-align:center"><img src="/psn-store/psn-store_1.gif"></div>')
+  env.locale = env.search.get('l') || "en_US"
+  env.offset = (parseInt(env.search.get('o')) > 0 && parseInt(env.search.get('o')) || 0) * env.length
+  env.params = `?size=${env.length}&platform=psp,ps3,vita,ps4,ps5&start=${env.offset}&sort=release_date&direction=desc`
+  Array.from(document.getElementsByTagName('form')[0].elements).filter(a => a.type != 'submit').map(a => { 
+    if (env.search.get(a.name)) a.value = env.search.get(a.name)
+  });
+  if(env.search.get('product') != null && env.search.get('product').length==36) {
+    env.product = true
+    env.url += `container/${env.locale.split('_').reverse().join('/')}/99/${env.search.get('product')}${env.params}`
+  }
+  if(env.search.get('q') != null && env.search.get('q').length>2 && env.search.get('q').length<256) {
+    env.query = true
+    env.url += `tumbler/${env.locale.split('_').reverse().join('/')}/99/${env.search.get('q') || ''}${env.params}&suggested_size=7`
+  }
+  if(env.product==env.query) {
+    env.product=false
+    env.query=false
+    env.locale = 'en_US'
+    env.search.set('product','STORE-MSF77008-ALLGAMES')
+    env.url += `container/${env.locale.split('_').reverse().join('/')}/99/${env.search.get('product')}${env.params}`
+  }
     try {
-      let locale = new URLSearchParams(window.location.search).get('l') || "en_US"
-      storecheck = await (await fetch(`https://store.playstation.com/store/api/chihiro/00_09_000/container/${locale.split('_').reverse().join('/')}/99/${new URLSearchParams(window.location.search).get('product')}?size=150&suggested_size=15&sort=release_date&direction=desc`)).json();
-      let contentimg = storecheck.images.filter(b => b.type==1 || b.type == 10).map(b => {
-        let imgurl = new URL(b.url)
-        if(imgurl.host=='apollo2.dl.playstation.net' || imgurl.host=='gs2-sec.ww.prod.dl.playstation.net') return `https://image.api.playstation.com/${imgurl.pathname}?w=137`
-        if(imgurl.host=='vulcan.dl.playstation.net') return `https://image.api.playstation.com/vulcan/${imgurl.pathname}?w=137`
-      })
-      if(contentimg.length>0) contentimg = contentimg[0]
-      else contentimg = 'https://store.playstation.com/img/default/product-image-game.svg'
-      let promomedia = { images: [], videos: [] }
-      if(storecheck.mediaList) {
-        if(storecheck.mediaList.previews) storecheck.mediaList.previews.map(a => promomedia.videos.push(a.url))
-        if(storecheck.mediaList.screenshots) storecheck.mediaList.screenshots.map(a => promomedia.images.push(a.url))
+      let psns = await (await fetch(env.url)).json();
+      if(psns.parent_links) psns.links = psns.parent_links.concat(psns.links)
+      psns.total_truncated=psns.links.length
+      psns.links = Array.from(new Set(psns.links.map(a => a.id))).map(a => psns.links.filter(b => b.id==a)[0])
+      psns.total_truncated=psns.total_truncated-psns.links.length
+      if(env.product) {
+        let contentimg = psns.images.filter(b => b.type==1 || b.type == 10).map(b => {
+          let imgurl = new URL(b.url)
+          if(imgurl.host=='apollo2.dl.playstation.net' || imgurl.host=='gs2-sec.ww.prod.dl.playstation.net') return `https://image.api.playstation.com/${imgurl.pathname}?w=137`
+          if(imgurl.host=='vulcan.dl.playstation.net') return `https://image.api.playstation.com/vulcan/${imgurl.pathname}?w=137`
+        })
+        if(contentimg.length>0) contentimg = contentimg[0]
+        else contentimg = 'https://store.playstation.com/img/default/product-image-game.svg'
+        let promomedia = { images: [], videos: [] }
+        if(psns.mediaList) {
+          if(psns.mediaList.previews) psns.mediaList.previews.map(a => promomedia.videos.push(a.url))
+          if(psns.mediaList.screenshots) psns.mediaList.screenshots.map(a => promomedia.images.push(a.url))
+        }
+        psns.promomedia.map(a => a.materials&&a.materials.filter(b => b.urls).map(b => b.urls.map(c => {
+          if(c.type == 28) promomedia.videos.push(c.url)
+          if(c.type == 26) promomedia.images.push(c.url)
+        })))
+        env.html[0] += `<div class="psns-product"><div class="psns-item"><img loading="lazy"onerror="this.src='https://store.playstation.com/img/default/product-image-game.svg'" src="${contentimg}"><div class="psns-title"><a>${psns.name}</a><div class="psns-details">${psns.default_sku&&psns.default_sku.display_price&&`<a>${psns.default_sku.display_price}</a>`||''}${psns.game_contentType&&`<a>${psns.game_contentType}</a>`||psns.top_category&&`<a>${psns.top_category.split('_').map(a => `${a[0].toUpperCase()}${a.slice(1).toLowerCase()}`).join('')}</a>`||''}${psns.playable_platform&&`<a>${psns.playable_platform&&psns.playable_platform[0].replace('™','').replace('®','')}</a>`||''}</div><div class="psns-details">${psns.release_date&&`<a>${new Date(psns.release_date).getUTCFullYear()}</a>`||''}<a>${psns.provider_name}</a></div></div></div>${promomedia.videos.concat(promomedia.images).length>0&&`<div class="images">${promomedia.videos.map(a => `<video src="${a}"controls=""allowfullscreen=""></video>`).join('')}${promomedia.images.map(a => `<img src="${a}"loading="lazy">`).join('')}</div>`||''}${psns.long_desc&&`<div class="psns-desc"><a>${psns.long_desc}</a></div>`||''}</div>`
       }
-      storecheck.promomedia.map(a => a.materials&&a.materials.filter(b => b.urls).map(b => b.urls.map(c => {
-        if(c.type == 28) promomedia.videos.push(c.url)
-        if(c.type == 26) promomedia.images.push(c.url)
-      })))
-      let storeresults = `<div class="psns-product"><div class="psns-item"><img loading="lazy"onerror="this.src='https://store.playstation.com/img/default/product-image-game.svg'" src="${contentimg}"><div class="psns-title"><a>${storecheck.name}</a><div class="psns-details"><a>${storecheck.default_sku&&storecheck.default_sku.display_price||'Unavailable'}</a><a>${storecheck.game_contentType||storecheck.top_category||'???'}</a><a>${storecheck.playable_platform&&storecheck.playable_platform.map(b => b.replace('™','').replace('®','')).join('</a><a>')}</a></div><div class="psns-details"><a>${new Date(storecheck.release_date).getUTCFullYear()}</a><a>${storecheck.provider_name}</a></div></div></div><div class="images">${promomedia.videos.map(a => `<video src="${a}"controls=""allowfullscreen=""></video>`).join('')}${promomedia.images.map(a => `<img src="${a}"loading="lazy">`).join('')}</div><div class="psns-desc"><a>${storecheck.long_desc}</a></div><div id="psns-container">${storecheck.parent_links.concat(storecheck.links).filter(a => a.id).map(a => {
+      env.html[0] += `<div id="psns-container">${psns.links.filter(a => a.id).map(a => {
         let contentimg = a.images.filter(b => b.type==1 || b.type == 10).map(b => {
           let imgurl = new URL(b.url)
           if(imgurl.host=='apollo2.dl.playstation.net' || imgurl.host=='gs2-sec.ww.prod.dl.playstation.net') return `https://image.api.playstation.com/${imgurl.pathname}?w=137`
@@ -43,56 +73,14 @@ if (new URLSearchParams(window.location.search).get('product') != null && new UR
         })
         if(contentimg.length>0) contentimg = contentimg[0]
         else contentimg = 'https://store.playstation.com/img/default/product-image-game.svg'
-        return `<div class="psns-item"><img loading="lazy"onerror="this.src='https://store.playstation.com/img/default/product-image-game.svg'" src="${contentimg}"><div class="psns-title"><a>${a.name}</a><div class="psns-details">${a.default_sku&&a.default_sku.display_price&&`<a>${a.default_sku.display_price}</a>`||''}<a>${a.game_contentType||a.top_category||'???'}</a><a>${a.playable_platform&&a.playable_platform[0].replace('™','').replace('®','')}</a></div><div class="psns-links"><a href="?product=${a.id}&l=${locale}">view</a><a href="psns:browse?product=${a.id}">psns:</a></div></div></div>`
-      }).join('')}</div></div>`
-      document.getElementById('content-container').insertAdjacentHTML('beforeend', storeresults)
-      document.getElementById('loading-content').remove();
-      Array.from(document.getElementsByTagName('form')[0].elements).filter(a => a.type != 'submit').map(a => {
-        if (new URLSearchParams(window.location.search).get(a.name)) {
-          a.value = new URLSearchParams(window.location.search).get(a.name)
-        }
-      });      
-    } catch(e) {
-      console.log(e)
-      document.getElementById('loading-content').remove();
-      document.getElementById('content-container').insertAdjacentHTML('beforeend', '<div id="loading-content" style="text-align:center"><a>Product doesn\'t exist</a></div>') 
+        return `<div class="psns-item"><img loading="lazy"onerror="this.src='https://store.playstation.com/img/default/product-image-game.svg'" src="${contentimg}"><div class="psns-title"><a>${a.name}</a><div class="psns-details">${a.default_sku&&a.default_sku.display_price&&`<a>${a.default_sku.display_price}</a>`||''}${a.game_contentType&&`<a>${a.game_contentType}</a>`||a.top_category&&`<a>${a.top_category.split('_').map(b => `${b[0].toUpperCase()}${b.slice(1).toLowerCase()}`).join('')}</a>`||''}${a.playable_platform&&`<a>${a.playable_platform&&a.playable_platform[0].replace('™','').replace('®','')}</a>`||''}</div><div class="psns-links"><a href="?product=${a.id}&l=${env.locale}">view</a><a href="psns:browse?product=${a.id}">psns:</a></div></div></div>`
+      }).join('')}</div>`
+    if(psns.total_results>0) env.html[1] = `<div class="storage-nav"style="text-align:center"><p>${env.offset+1}-${env.offset+env.length < psns.total_results && env.offset+env.length || psns.total_results} of ${psns.total_results} (${psns.total_truncated} hidden)</p><div class="common-nav-container">${env.offset > 0 && `<a href="?${env.product&&`product=${env.search.get('product')}&`||env.query&&`q=${env.search.get('q')}&`||''}l=${env.locale}&o=${parseInt(env.search.get('o')) - 1}"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="2 2 20 20"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></a>` || ''}${env.offset+env.length < psns.total_results && `<a href="?${env.product&&`product=${env.search.get('product')}&`||env.query&&`q=${env.search.get('q')}&`||''}l=${env.locale}&o=${parseInt(env.search.get('o') || '0') + 1}"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="2 2 20 20"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a>` || ''}</div></div>`
+    if((psns.total_results==0 || env.offset>psns.total_results) && env.query) env.html[0] = '<div id="loading-content" style="text-align:center"><a>No results</a></div>'
+    } catch {
+      env.html[0] = '<div id="loading-content" style="text-align:center"><a>Unable to access PlayStation Store</a></div>'
     }
-  })
-} else if (new URLSearchParams(window.location.search).get('q') != null && new URLSearchParams(window.location.search).get('q').length>2 && new URLSearchParams(window.location.search).get('q').length<256) {
-  document.addEventListener("DOMContentLoaded", async () => {
-    document.getElementById('content-container').insertAdjacentHTML('beforeend', '<div id="loading-content"style="text-align:center"><img src="/psn-store/psn-store_1.gif"></div>')
-    try {
-      let length = 150
-      let offset = (parseInt(new URLSearchParams(window.location.search).get('o')) > 0 && parseInt(new URLSearchParams(window.location.search).get('o')) || 0) * length
-      let locale = new URLSearchParams(window.location.search).get('l') || "en_US"
-      storecheck = await (await fetch(`https://store.playstation.com/store/api/chihiro/00_09_000/tumbler/${locale.split('_').reverse().join('/')}/99/${new URLSearchParams(window.location.search).get('q') || ''}?size=${length}&suggested_size=15&platform=psp,ps3,vita,ps4,ps5&start=${offset}&sort=release_date&direction=desc`)).json();
-      let storeresults = document.createElement('div')
-      storeresults.id = 'psns-container'
-      storeresults.innerHTML = storecheck.links.filter(a => a.id).map(a => {
-        let contentimg = a.images.filter(b => b.type==1 || b.type == 10).map(b => {
-          let imgurl = new URL(b.url)
-          if(imgurl.host=='apollo2.dl.playstation.net' || imgurl.host=='gs2-sec.ww.prod.dl.playstation.net') return `https://image.api.playstation.com/${imgurl.pathname}?w=137`
-          if(imgurl.host=='vulcan.dl.playstation.net') return `https://image.api.playstation.com/vulcan/${imgurl.pathname}?w=137`
-        })
-        if(contentimg.length>0) contentimg = contentimg[0]
-        else contentimg = 'https://store.playstation.com/img/default/product-image-game.svg'
-        return `<div class="psns-item"><img loading="lazy"onerror="this.src='https://store.playstation.com/img/default/product-image-game.svg'" src="${contentimg}"><div class="psns-title"><a>${a.name}</a><div class="psns-details">${a.default_sku&&a.default_sku.display_price&&`<a>${a.default_sku.display_price}</a>`||''}<a>${a.game_contentType||a.top_category||'???'}</a><a>${a.playable_platform&&a.playable_platform[0].replace('™','').replace('®','')}</a></div><div class="psns-links"><a href="?product=${a.id}&l=${locale}">view</a><a href="psns:browse?product=${a.id}">psns:</a></div></div></div>`
-      }).join('')
-      let paginator = '<div></div>'
-      document.getElementById('loading-content').remove();
-      if(storecheck.total_results>0) {
-        paginator = `<div class="storage-nav"style="text-align:center"><p>${offset+1}-${offset+length < storecheck.total_results && offset+length || storecheck.total_results} of ${storecheck.total_results}</p><div class="common-nav-container">${offset > 0 && `<a href="?q=${new URLSearchParams(window.location.search).get('q')}&l=${locale}&o=${parseInt(new URLSearchParams(window.location.search).get('o')) - 1}"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="2 2 20 20"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></a>` || ''}${offset+length < storecheck.total_results && `<a href="?q=${new URLSearchParams(window.location.search).get('q')}&l=${locale}&o=${parseInt(new URLSearchParams(window.location.search).get('o') || '0') + 1}"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="2 2 20 20"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a>` || ''}</div></div>`
-      } else document.getElementById('content-container').insertAdjacentHTML('beforeend', '<div id="loading-content" style="text-align:center"><a>No results</a></div>')
-      document.getElementById('content-container').appendChild(storeresults)
-      document.getElementsByTagName('footer')[0].insertAdjacentHTML('afterbegin',paginator);
-      Array.from(document.getElementsByTagName('form')[0].elements).filter(a => a.type != 'submit').map(a => {
-        if (new URLSearchParams(window.location.search).get(a.name)) {
-          a.value = new URLSearchParams(window.location.search).get(a.name)
-        }
-      });      
-    } catch(e) {
-      document.getElementById('loading-content').remove();
-      document.getElementById('content-container').insertAdjacentHTML('beforeend', '<div id="loading-content" style="text-align:center"><a>Unable to access PlayStation Store</a></div>') 
-    }
-  })
-}</script>
+  if(document.getElementById('loading-content')) document.getElementById('loading-content').remove();
+  document.getElementById('content-container').insertAdjacentHTML('beforeend', env.html[0])
+  document.getElementsByTagName('footer')[0].insertAdjacentHTML('afterbegin',env.html[1]);
+})</script>
