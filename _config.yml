@@ -15,7 +15,7 @@ navitems:
 #    - url: '../'
 #      icon: ''
   secondary:
-    - url: '//github.com/Kee7702/Kee7702.gihub.io'
+    - url: '//github.com/Kee7702/Kee7702.github.io'
       icon: '<img style="height:24px" src="/assets/github.svg">'
 
 redirect_from:
