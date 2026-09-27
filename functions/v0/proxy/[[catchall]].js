@@ -20,7 +20,7 @@ export async function onRequestGet(context) {
     } else if(kpath.startsWith('zeqa:')&&kpath.split(':').length==3) {
       let zequery = await fetch(`https://app.zeqa.net/cosmetic/model/${kpath.slice(5).replaceAll(':','/')}.gltf`)
       if(zequery.status==200) kpath = JSON.parse(await (await zequery.blob()).text()).images[0].uri
-    } else (!mapurl) return new Response(`400: Bad Request`, { status: 400 })
+    } else if(!mapurl) return new Response(`400: Bad Request`, { status: 400 })
     const kfile = await fetch(kpath, khead);
     if(kheaders['Content-Type'] == 'google-drive' && kfile.headers.get('Content-Type').startsWith('text/html')) {
       return fetch(`https://drive.usercontent.google.com/download?${(await (await kfile.blob()).text()).match(/<input type="hidden" name="(.*?)" value="(.*?)">/g).map(a => a.match(/<input type="hidden" name="(.*?)" value="(.*?)">/).filter((b,c) => c>0).join('=')).join('&')}`)
