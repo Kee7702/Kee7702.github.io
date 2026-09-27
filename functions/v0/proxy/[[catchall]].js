@@ -1,6 +1,9 @@
 export async function onRequestGet(context) {
+  if(context.params.catchall.length!=1) return new Response(`400: Bad Request`, {
+    status: 400
+  });
   try {
-    let kpath = decodeURIComponent(context.params.catchall.join('/'));
+    let kpath = decodeURIComponent(context.params.catchall[0]);
     const khead = {
       headers: {
         "User-Agent": context.request.headers.get("User-Agent"),
@@ -35,7 +38,10 @@ export async function onRequestGet(context) {
     ].filter(a => a == new URL(kpath).protocol).length==0 || [
       'corsproxy.kee7702.workers.dev'
     ].filter(a => a == new URL(kpath).hostname).length>0) return new Response(`400: Bad Request`, { status: 400 })
-    const kfile = await fetch(kpath, khead);
+    let kfile = await fetch(kpath, khead);
+    if(kheaders['Content-Type'] == 'google-drive' && kfile.headers.get('Content-Type').startsWith('text/html')) {
+      kfile = await fetch(`https://drive.usercontent.google.com/download?${(await (await kfile.blob()).text()).match(/<input type="hidden" name="(.*?)" value="(.*?)">/g).map(a => a.match(/<input type="hidden" name="(.*?)" value="(.*?)">/).filter((b,c) => c>0).join('=')).join('&')}`, khead)
+    }
     let kfilename = kfile.headers.get('Content-Disposition') && kfile.headers.get('Content-Disposition').match('filename="(.*?)"') || null
     if(kfilename) {
       kfilename = kfilename[1]
