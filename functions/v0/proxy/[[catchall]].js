@@ -1,6 +1,7 @@
 export async function onRequestGet(context) {
   try {
-    let kpath = decodeURIComponent(context.params.catchall.join('/'));
+    if(context.params.catchall.length!=1) throw new Error()
+    let kpath = decodeURIComponent(context.params.catchall[0]);
     const khead = {
       headers: {
         "User-Agent": context.request.headers.get("User-Agent"),
@@ -23,8 +24,8 @@ export async function onRequestGet(context) {
       } if(kpath.match('^id:google-drive:[a-zA-Z0-9_-]{25,}$')) {
         kpath = `https://drive.usercontent.google.com/download?id=${kpath.match('^id:google-drive:([a-zA-Z0-9_-]{25,})$')[1]}&export=download`
         kheaders['Content-Type'] = 'google-drive'
-      } if(kpath.startsWith('id:zeqa:')&&kpath.split('/').length==2) {
-        let zequery = await fetch(`https://app.zeqa.net/cosmetic/model/${kpath.slice(8)}.gltf`)
+      } if(kpath.startsWith('id:zeqa:')&&kpath.split(':').length==4) {
+        let zequery = await fetch(`https://app.zeqa.net/cosmetic/model/${kpath.slice(8).replaceAll(':','/')}.gltf`)
         if(zequery.status==200) kpath = JSON.parse(await (await zequery.blob()).text()).images[0].uri
       } if(kpath.startsWith('id:')) return new Response(`404: Not Found`, { status: 404 })
     } else if(kpath.length>2048) return new Response(`414: URI Too Long`, { status: 414 });
