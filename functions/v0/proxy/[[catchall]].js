@@ -3,7 +3,7 @@ export async function onRequestGet(context) {
     let kpath = decodeURIComponent(context.params.catchall.join('/'));
     const khead = {
       headers: {
-        "User-Agent": request.headers.get("User-Agent"),
+        "User-Agent": context.request.headers.get("User-Agent"),
         "Accept": "*/*"
       }
     }
