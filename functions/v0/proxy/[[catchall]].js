@@ -1,9 +1,6 @@
 export async function onRequestGet(context) {
-  if(context.params.catchall.length!=1) return new Response(`400: Bad Request`, {
-    status: 400
-  });
   try {
-    let kpath = decodeURIComponent(context.params.catchall[0]);
+    let kpath = decodeURIComponent(context.params.catchall.join('/'));
     const khead = {
       headers: {
         "User-Agent": context.request.headers.get("User-Agent"),
