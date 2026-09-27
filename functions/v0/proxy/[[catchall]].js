@@ -26,9 +26,8 @@ export async function onRequestGet(context) {
     if(kheaders['Content-Type'] == 'google-drive' && kfile.headers.get('Content-Type').startsWith('text/html')) {
       return fetch(`https://drive.usercontent.google.com/download?${(await (await kfile.blob()).text()).match(/<input type="hidden" name="(.*?)" value="(.*?)">/g).map(a => a.match(/<input type="hidden" name="(.*?)" value="(.*?)">/).filter((b,c) => c>0).join('=')).join('&')}`)
     }
-    let kfilename = kfile.headers.get('Content-Disposition') && kfile.headers.get('Content-Disposition').match('filename="(.*?)"') || null
+    let kfilename = kfile.headers.get('Content-Disposition') && kfile.headers.get('Content-Disposition').match('filename="(.*?)"')[1] || null
     if(kfilename) {
-      kfilename = kfilename[1]
       if(kheaders['Content-Type'] == 'google-drive') {
         delete kheaders['Content-Type']
         let mimes = await context.env.keys.get('mime-types', 'json')
@@ -39,7 +38,7 @@ export async function onRequestGet(context) {
     if(kfile.status!=200) return k400
     return new Response(await kfile.blob(), {
       headers: {
-        "Content-Disposition": `inline; filename="${kfilename || kpath.slice(kpath.lastIndexOf('/')+1).slice(0,64)}"`,
+        "Content-Disposition": `inline; filename="${kfilename || context.params.catchall[0]}"`,
         ...kfile.headers,
         ...kheaders
       }
