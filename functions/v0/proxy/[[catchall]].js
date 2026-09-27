@@ -21,7 +21,7 @@ export async function onRequestGet(context) {
       if(mapurl) {
         kpath = mapurl;
       } if(kpath.match('^id:google-drive:[a-zA-Z0-9_-]{25,}$')) {
-        kpath = `https://drive.usercontent.google.com/download?id=${kpath.match('^id:google-drive:([a-zA-Z0-9_-]{25,})$')[1]}&export=download&confirm=t`
+        kpath = `https://drive.usercontent.google.com/download?id=${kpath.match('^id:google-drive:([a-zA-Z0-9_-]{25,})$')[1]}&export=download`
         kheaders['Content-Type'] = 'google-drive'
       } if(kpath.startsWith('id:zeqa:')&&kpath.split('/').length==2) {
         let zequery = await fetch(`https://app.zeqa.net/cosmetic/model/${kpath.slice(8)}.gltf`)
