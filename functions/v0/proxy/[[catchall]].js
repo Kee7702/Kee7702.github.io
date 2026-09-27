@@ -43,7 +43,8 @@ export async function onRequestGet(context) {
         ...kheaders
       }
     })
-  } catch {
+  } catch(e) {
+    return new Response(e.stack)
     return k400
   }
 }
