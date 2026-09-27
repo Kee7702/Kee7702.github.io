@@ -15,13 +15,13 @@ export async function onRequestGet(context) {
     const mapurl = (await context.env.keys.get('urlmap', 'json'))[kpath]
     if(mapurl) {
       kpath = mapurl
-    } else if(kpath.match('^gdrive:[a-zA-Z0-9_-]{25,}$')) {
+    } if(kpath.match('^gdrive:[a-zA-Z0-9_-]{25,}$')) {
       kpath = `https://drive.usercontent.google.com/download?id=${kpath.match('^id:google-drive:([a-zA-Z0-9_-]{25,})$')[1]}&export=download`
       kheaders['Content-Type'] = 'google-drive'
     } else if(kpath.startsWith('zeqa:')&&kpath.split(':').length==3) {
       let zequery = await fetch(`https://app.zeqa.net/cosmetic/model/${kpath.slice(5).replaceAll(':','/')}.gltf`)
       if(zequery.status==200) kpath = JSON.parse(await (await zequery.blob()).text()).images[0].uri
-    } else return new Response(`400: Bad Request`, { status: 400 })
+    } else (!mapurl) return new Response(`400: Bad Request`, { status: 400 })
     const kfile = await fetch(kpath, khead);
     if(kheaders['Content-Type'] == 'google-drive' && kfile.headers.get('Content-Type').startsWith('text/html')) {
       return fetch(`https://drive.usercontent.google.com/download?${(await (await kfile.blob()).text()).match(/<input type="hidden" name="(.*?)" value="(.*?)">/g).map(a => a.match(/<input type="hidden" name="(.*?)" value="(.*?)">/).filter((b,c) => c>0).join('=')).join('&')}`)
