@@ -11,12 +11,7 @@ export async function onRequestGet(context) {
     let kheaders = {
       "Access-Control-Allow-Origin": "*"
     }
-    if([
-      'id:',
-      'data:',
-      'http:',
-      'https:'
-    ].filter(a => kpath.startsWith(a)).length==0) kpath = atob(kpath)
+    if(!kpath.startsWith('id:')) throw new Error()
     if(kpath.startsWith('id:')) {
       const mapurl = (await context.env.keys.get('urlmap', 'json'))[kpath]
       if(mapurl) {
@@ -57,8 +52,8 @@ export async function onRequestGet(context) {
         ...kheaders
       }
     })
-  } catch(e) {
-    return new Response(`400: Bad Request\n  ${e.stack}`, {
+  } catch {
+    return new Response(`400: Bad Request`, {
       status: 400
     });
   }
