@@ -59,8 +59,8 @@ export async function onRequestGet(context) {
         ...kheaders
       }
     })
-  } catch {
-    return new Response(`400: Bad Request`, {
+  } catch(e) {
+    return new Response(`400: Bad Request\n  ${e.stack}`, {
       status: 400
     });
   }
