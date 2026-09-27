@@ -38,7 +38,7 @@ export async function onRequestGet(context) {
     if(kfile.status!=200) return k400
     return new Response(await kfile.blob(), {
       headers: {
-        "Content-Disposition": `inline; filename="${kfilename || context.params.catchall[0]}"`,
+        "Content-Disposition": `inline; filename="${context.params.catchall[0]}"`,
         ...kfile.headers,
         ...kheaders
       }
