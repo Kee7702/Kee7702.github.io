@@ -17,7 +17,7 @@ export async function onRequestGet(context) {
       'https:'
     ].filter(a => kpath.startsWith(a)).length==0) kpath = atob(kpath)
     if(kpath.startsWith('id:')) {
-      const mapurl = await context.env.keys.get('urlmap', 'json')[kpath]
+      const mapurl = (await context.env.keys.get('urlmap', 'json'))[kpath]
       if(mapurl) {
         kpath = mapurl;
       } if(kpath.match('^id:google-drive:[a-zA-Z0-9_-]{25,}$')) {
