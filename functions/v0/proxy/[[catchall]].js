@@ -17,7 +17,7 @@ export async function onRequestGet(context) {
       'https:'
     ].filter(a => kpath.startsWith(a)).length==0) kpath = atob(kpath)
     if(kpath.startsWith('id:')) {
-      const mapurl = await env.keys.get('urlmap', 'json')[kpath]
+      const mapurl = await context.env.keys.get('urlmap', 'json')[kpath]
       if(mapurl) {
         kpath = mapurl;
       } if(kpath.match('^id:google-drive:[a-zA-Z0-9_-]{25,}$')) {
@@ -41,7 +41,7 @@ export async function onRequestGet(context) {
       kfilename = kfilename[1]
       if(kheaders['Content-Type'] == 'google-drive') {
         delete kheaders['Content-Type']
-        let mimes = await env.keys.get('mime-types', 'json')
+        let mimes = await context.env.keys.get('mime-types', 'json')
         mimes = mimes.filter(a => a[1].includes(kfilename.split(".").reverse()[0]))[0]
         if(mimes) kheaders['Content-Type'] = mimes[0]
       }
