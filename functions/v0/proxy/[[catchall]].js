@@ -1,7 +1,6 @@
 export async function onRequestGet(context) {
-  const k400 = new Response(`400: Bad Request`, { status: 400 })
   try {
-    if(context.params.catchall.length!=1) return k400
+    if(context.params.catchall.length!=1) return new Response(`400: Bad Request`, { status: 400 })
     let kpath = decodeURIComponent(context.params.catchall[0]);
     const khead = {
       headers: {
@@ -35,7 +34,7 @@ export async function onRequestGet(context) {
         if(mimes) kheaders['Content-Type'] = mimes[0]
       }
     }
-    if(kfile.status!=200) return k400
+    if(kfile.status!=200) return new Response(`${kfile.status}: ${kfile.statusText}`, { status: kfile.status })
     return new Response(await kfile.blob(), {
       headers: {
         "Content-Disposition": `inline; filename="${context.params.catchall[0]}"`,
@@ -44,7 +43,7 @@ export async function onRequestGet(context) {
       }
     })
   } catch(e) {
-    return new Response(e.stack)
-    return k400
+    return new Response(`500: Internal Server Error\n  ${e.stack}`, { status: 500 })
+    return new Response(`500: Internal Server Error`, { status: 500 })
   }
 }
