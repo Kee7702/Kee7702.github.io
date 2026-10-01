@@ -7,7 +7,7 @@ description: "Catch up on the latest from me or simply take a look at some of wh
 theme_color: '#2e2e37'
 
 # Root for content downloads
-cdnroot: /assets/content/
+cdnroot: /v0/download/
 
 # Site-wide navigation (or per-page: page.links => site.navitems.primary)
 navitems:
