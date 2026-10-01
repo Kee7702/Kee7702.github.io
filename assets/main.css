@@ -48,16 +48,16 @@ button {
   --font-primary:Poppins
 }
 * {
-  scrollbar-color:var(--highlight-secondary) var(--background-secondary)
+  scrollbar-color:var(--accent-primary) var(--background-secondary)
 }
 ::-webkit-scrollbar-thumb {
-  background:var(--background-tertiary)
+  background:var(--accent-primary)
 }
 ::-webkit-scrollbar {
   width:8px
 }
 ::-webkit-scrollbar-track {
-  background:var(--background-quartary)
+  background:var(--background-secondary)
 }
 noscript {
   background:var(--background-secondary);
